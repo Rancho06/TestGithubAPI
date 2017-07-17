@@ -1,12 +1,4 @@
 {
-    "datasets": [
-        {
-            "id": "0FbQ0000000Cc9PKAS",
-            "label": "SustainabilityMetrics",
-            "name": "SustainabilityMetrics",
-            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
-        }
-    ],
     "label": "In Progress - Sustainability Dashboard",
     "state": {
         "dataSourceLinks": [],
@@ -1646,5 +1638,13 @@
                 "type": "chart"
             }
         }
-    }
+    },
+    "datasets": [
+        {
+            "id": "0FbQ0000000Cc9PKAS",
+            "label": "SustainabilityMetrics",
+            "name": "SustainabilityMetrics",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+        }
+    ]
 }
