@@ -1,1 +1,1650 @@
-{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"label":"In Progress - Sustainability Dashboard","state":{"dataSourceLinks":[],"gridLayouts":[{"name":"Default","numColumns":12,"pages":[{"widgets":[{"colspan":12,"column":0,"name":"container_1","row":0,"rowspan":2,"widgetStyle":{"backgroundColor":"rgba(255, 255, 255, 0)","borderColor":"#A3B8CC","borderEdges":[],"borderRadius":16,"borderWidth":1}},{"colspan":8,"column":2,"name":"text_1","row":0,"rowspan":2,"widgetStyle":{"backgroundColor":"rgba(255, 255, 255, 0)","borderEdges":[]}},{"colspan":2,"column":0,"name":"image_1","row":0,"rowspan":2,"widgetStyle":{"backgroundColor":"rgba(255, 255, 255, 0)","borderEdges":[]}},{"colspan":2,"column":10,"name":"image_2","row":0,"rowspan":2,"widgetStyle":{"backgroundColor":"rgba(255, 255, 255, 0)","borderEdges":[]}},{"colspan":4,"column":4,"name":"container_2","row":3,"rowspan":9,"widgetStyle":{"backgroundColor":"rgb(255, 255, 255)","borderColor":"rgb(0, 135, 11)","borderEdges":["top"],"borderRadius":16,"borderWidth":4}},{"colspan":4,"column":4,"name":"chart_2","row":5,"rowspan":7,"widgetStyle":{"backgroundColor":"rgb(255, 255, 255)","borderEdges":[]}},{"colspan":2,"column":4,"name":"text_2","row":3,"rowspan":1,"widgetStyle":{"backgroundColor":"rgb(255, 255, 255)","borderEdges":[]}},{"colspan":2,"column":1,"name":"listselector_1","row":2,"rowspan":1,"widgetStyle":{"borderEdges":[]}},{"colspan":3,"column":8,"name":"pillbox_1","row":2,"rowspan":1,"widgetStyle":{"borderEdges":[]}},{"colspan":2,"column":3,"name":"listselector_2","row":2,"rowspan":1,"widgetStyle":{"borderEdges":[]}},{"colspan":2,"column":5,"name":"listselector_3","row":2,"rowspan":1,"widgetStyle":{"borderEdges":[]}},{"colspan":4,"column":8,"name":"container_3","row":3,"rowspan":9,"widgetStyle":{"backgroundColor":"#FFFFFF","borderColor":"rgb(231, 223, 3)","borderEdges":["top"],"borderRadius":16,"borderWidth":4}},{"colspan":2,"column":8,"name":"text_3","row":3,"rowspan":1,"widgetStyle":{"borderEdges":[]}},{"colspan":4,"column":8,"name":"chart_1","row":5,"rowspan":7,"widgetStyle":{"borderEdges":[]}},{"colspan":12,"column":0,"name":"container_4","row":12,"rowspan":9,"widgetStyle":{"backgroundColor":"#FFFFFF","borderColor":"rgb(206, 101, 3)","borderEdges":["top"],"borderRadius":16,"borderWidth":4}},{"colspan":6,"column":0,"name":"text_4","row":12,"rowspan":1,"widgetStyle":{"borderEdges":[]}},{"colspan":12,"column":0,"name":"chart_3","row":14,"rowspan":7,"widgetStyle":{"borderEdges":[]}},{"colspan":4,"column":0,"name":"container_5","row":3,"rowspan":9,"widgetStyle":{"backgroundColor":"#FFFFFF","borderColor":"rgb(0, 96, 230)","borderEdges":["top"],"borderRadius":16,"borderWidth":4}},{"colspan":2,"column":0,"name":"text_5","row":3,"rowspan":1,"widgetStyle":{"borderEdges":[]}},{"colspan":2,"column":2,"name":"number_1","row":3,"rowspan":2,"widgetStyle":{"borderEdges":[]}},{"colspan":2,"column":6,"name":"number_2","row":3,"rowspan":2,"widgetStyle":{"borderEdges":[]}},{"colspan":2,"column":10,"name":"number_3","row":3,"rowspan":2,"widgetStyle":{"borderEdges":[]}},{"colspan":3,"column":9,"name":"number_4","row":12,"rowspan":2,"widgetStyle":{"borderEdges":[]}},{"colspan":4,"column":0,"name":"chart_5","row":5,"rowspan":7,"widgetStyle":{"borderEdges":[]}}]}],"rowHeight":"normal","selectors":[],"style":{"alignmentX":"left","alignmentY":"top","backgroundColor":"#FFFFFF","cellSpacingX":8,"cellSpacingY":8,"fit":"tile","gutterColor":"#FFFFFF"},"version":1}],"layouts":[],"steps":{"PROJECT_STATUS_1":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROJECT_STATUS\"]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"parameters":{"autoFitMode":"none","showValues":true,"bins":{"breakpoints":{"high":100,"low":0},"bands":{"high":{"color":"#008000","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":true,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"hbar","title":{"label":"","align":"center","subtitleLabel":""},"binValues":false,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"theme":"wave","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"}},"REGION_1":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"REGION\"]}","version":-1},"selectMode":"multi","type":"aggregateflex","useGlobal":false,"visualizationParameters":{}},"PROJECT_STATUS_ORDER_1":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROJECT_STATUS_ORDER\"]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"parameters":{"centerText":"","centerValueType":"number","legend":{"showHeader":true,"show":true,"customSize":"auto","position":"right-top","inside":false},"showMeasureTitle":true,"valueType":"compactNumber","visualizationType":"pie","theme":"wave","title":{"label":"","align":"center","subtitleLabel":""},"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"inner":60},"type":"chart"}},"PROPERTY_1":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROPERTY\"],\"filters\":[[\"PROJECT_STATUS\",[\"Pending\"],\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"visualizationType":"vbar"}},"RSF_2":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"filters\":[[\"PROJECT_STATUS\",[\"Pending\"],\"in\"]]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"parameters":{"autoFitMode":"none","showValues":true,"bins":{"breakpoints":{"high":100,"low":0},"bands":{"high":{"color":"#008000","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":true,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"hbar","title":{"label":"","align":"center","subtitleLabel":""},"binValues":false,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"theme":"wave","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"}},"RSF_3":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"filters\":[[\"PROJECT_STATUS\",[\"Eligible\"],\"in\"]]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"parameters":{"autoFitMode":"none","showValues":true,"bins":{"breakpoints":{"high":100,"low":0},"bands":{"high":{"color":"#008000","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":true,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"hbar","title":{"label":"","align":"center","subtitleLabel":""},"binValues":false,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"theme":"wave","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"}},"static_1":{"datasets":[],"dimensions":[],"groups":[],"isFacet":false,"isGlobal":false,"numbers":[],"selectMode":"singlerequired","strings":[],"type":"staticflex","useGlobal":false,"values":["{\"display\":\"RSF\",\"value\":\"RSF\"}","{\"display\":\"Occupancy\",\"value\":\"OCCUPENCY\"}"]},"RSF_1":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"filters\":[[\"PROJECT_STATUS\",\"Certified\",\"in\"]]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"parameters":{"autoFitMode":"none","showValues":true,"bins":{"breakpoints":{"high":100,"low":0},"bands":{"high":{"color":"#008000","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":true,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"hbar","title":{"label":"","align":"center","subtitleLabel":""},"binValues":false,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"theme":"wave","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"}},"PROPERTY_4":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"unique\",\"PROPERTY\"]]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"parameters":{"autoFitMode":"none","showValues":true,"bins":{"breakpoints":{"high":100,"low":0},"bands":{"high":{"color":"#008000","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":true,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"hbar","title":{"label":"","align":"center","subtitleLabel":""},"binValues":false,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"theme":"wave","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"}},"CITY_1":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CITY\"]}","version":-1},"selectMode":"multi","type":"aggregateflex","useGlobal":false,"visualizationParameters":{}},"PROPERTY_3":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROPERTY\"],\"filters\":[[\"PROJECT_STATUS\",[\"Certified\"],\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"visualizationType":"vbar"}},"PROPERTY_2":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROPERTY\"],\"filters\":[[\"PROJECT_STATUS\",[\"Eligible\"],\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}","version":-1},"selectMode":"single","type":"aggregateflex","useGlobal":true,"visualizationParameters":{"parameters":{"autoFitMode":"none","showValues":true,"bins":{"breakpoints":{"high":100,"low":0},"bands":{"high":{"color":"#008000","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":true,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"hbar","title":{"label":"","align":"center","subtitleLabel":""},"binValues":false,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"theme":"wave","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"}},"COUNTRY_1":{"datasets":[{"id":"0FbQ0000000Cc9PKAS","label":"SustainabilityMetrics","name":"SustainabilityMetrics","url":"/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"}],"isFacet":true,"isGlobal":false,"query":{"query":"{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"COUNTRY\"]}","version":-1},"selectMode":"multi","type":"aggregateflex","useGlobal":false,"visualizationParameters":{}}},"widgetStyle":{"backgroundColor":"#FFFFFF","borderColor":"#E6ECF2","borderEdges":[],"borderRadius":0,"borderWidth":1},"widgets":{"listselector_3":{"parameters":{"compact":false,"exploreLink":false,"instant":false,"measureField":"none","step":"CITY_1","title":"City"},"type":"listselector"},"listselector_2":{"parameters":{"compact":false,"exploreLink":false,"instant":false,"measureField":"none","step":"COUNTRY_1","title":"Country"},"type":"listselector"},"text_1":{"parameters":{"fontSize":32,"text":"Sustainability Dashboard","textAlignment":"center","textColor":"#091A3E"},"type":"text"},"number_4":{"parameters":{"compact":true,"exploreLink":true,"measureField":"sum_RSF","numberColor":"rgb(206, 101, 3)","numberSize":20,"step":"RSF_3","textAlignment":"right","title":"Total {{cell(static_1.selection, 0, \"display\").asObject()}}","titleColor":"rgb(206, 101, 3)","titleSize":14},"type":"number"},"number_3":{"parameters":{"compact":true,"exploreLink":true,"measureField":"sum_RSF","numberColor":"rgb(231, 223, 3)","numberSize":20,"step":"RSF_2","textAlignment":"right","title":"Total {{cell(static_1.selection, 0, \"display\").asObject()}}","titleColor":"rgb(231, 223, 3)","titleSize":14},"type":"number"},"container_1":{"parameters":{"alignmentX":"left","alignmentY":"top","fit":"original"},"type":"container"},"number_2":{"parameters":{"compact":true,"exploreLink":true,"measureField":"sum_RSF","numberColor":"rgb(0, 135, 11)","numberSize":20,"step":"RSF_1","textAlignment":"right","title":"Total {{cell(static_1.selection, 0, \"display\").asObject()}}","titleColor":"rgb(0, 135, 11)","titleSize":14},"type":"number"},"container_2":{"parameters":{"alignmentX":"left","alignmentY":"top","fit":"original"},"type":"container"},"number_1":{"parameters":{"compact":false,"exploreLink":true,"measureField":"unique_PROPERTY","numberColor":"rgb(0, 96, 230)","numberSize":20,"step":"PROPERTY_4","textAlignment":"right","title":"Total Building Count","titleColor":"rgb(0, 96, 230)","titleSize":14},"type":"number"},"pillbox_1":{"parameters":{"compact":false,"exploreLink":false,"step":"static_1"},"type":"pillbox"},"container_3":{"parameters":{"alignmentX":"left","alignmentY":"top","fit":"original"},"type":"container"},"container_4":{"parameters":{"alignmentX":"left","alignmentY":"top","fit":"original"},"type":"container"},"container_5":{"parameters":{"alignmentX":"left","alignmentY":"top","fit":"original"},"type":"container"},"image_1":{"parameters":{"alignmentX":"left","alignmentY":"center","fit":"fitheight","image":{"name":"logo198png","namespace":""}},"type":"image"},"text_3":{"parameters":{"fontSize":24,"text":"Pending","textAlignment":"left","textColor":"rgb(231, 223, 3)"},"type":"text"},"text_2":{"parameters":{"fontSize":24,"text":"Certified","textAlignment":"left","textColor":"rgb(0, 135, 11)"},"type":"text"},"chart_5":{"parameters":{"autoFitMode":"keepLabels","centerText":"","showValues":true,"bins":{"breakpoints":{"high":100,"low":0},"bands":{"high":{"color":"#008000","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":false,"show":true,"customSize":"auto","position":"top-center","inside":false},"showMeasureTitle":true,"axisMode":"multi","visualizationType":"pie","exploreLink":true,"title":{"label":"","align":"center","subtitleLabel":""},"binValues":false,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"inner":60,"centerValueType":"number","measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"valueType":"compactNumber","theme":"wave","step":"PROJECT_STATUS_ORDER_1","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"},"listselector_1":{"parameters":{"compact":false,"exploreLink":false,"instant":false,"measureField":"none","step":"REGION_1","title":"Region"},"type":"listselector"},"text_5":{"parameters":{"fontSize":20,"text":"Project Summary","textAlignment":"left","textColor":"rgb(0, 96, 230)"},"type":"text"},"image_2":{"parameters":{"alignmentX":"right","alignmentY":"center","fit":"fitheight","image":{"name":"Greenbuildingastropng","namespace":""}},"type":"image"},"text_4":{"parameters":{"fontSize":24,"text":"Eligible","textAlignment":"left","textColor":"rgb(206, 101, 3)"},"type":"text"},"chart_2":{"parameters":{"autoFitMode":"fit","showValues":true,"bins":{"breakpoints":{"high":1,"low":0},"bands":{"high":{"color":"rgb(0, 135, 11)","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":false,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"vbar","exploreLink":true,"title":{"label":"","align":"center","subtitleLabel":""},"binValues":true,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"step":"PROPERTY_3","theme":"wave","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"Property Name","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"},"chart_1":{"parameters":{"autoFitMode":"fit","showValues":true,"bins":{"breakpoints":{"high":1,"low":0},"bands":{"high":{"color":"rgb(231, 223, 3)","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":false,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"vbar","exploreLink":true,"title":{"label":"","align":"center","subtitleLabel":""},"binValues":true,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"step":"PROPERTY_1","theme":"wave","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"Property Name","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"},"chart_3":{"parameters":{"autoFitMode":"none","showValues":true,"bins":{"breakpoints":{"high":1,"low":0},"bands":{"high":{"color":"rgb(206, 101, 3)","label":""},"low":{"color":"#B22222","label":""},"medium":{"color":"#ffa500","label":""}}},"legend":{"showHeader":true,"show":false,"customSize":"auto","position":"right-top","inside":false},"axisMode":"multi","visualizationType":"vbar","exploreLink":true,"title":{"label":"","align":"center","subtitleLabel":""},"binValues":true,"trellis":{"flipLabels":false,"showGridLines":true,"enable":false,"type":"x","chartsPerLine":4},"measureAxis2":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"measureAxis1":{"sqrtScale":false,"showTitle":true,"showAxis":true,"title":"","customDomain":{"showDomain":false}},"theme":"wave","step":"PROPERTY_2","dimensionAxis":{"showTitle":true,"customSize":"auto","showAxis":true,"title":"","icons":{"useIcons":false,"iconProps":{"fit":"cover","column":"","type":"round"}}}},"type":"chart"}}}}
+{
+    "datasets": [
+        {
+            "id": "0FbQ0000000Cc9PKAS",
+            "label": "SustainabilityMetrics",
+            "name": "SustainabilityMetrics",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+        }
+    ],
+    "label": "In Progress - Sustainability Dashboard",
+    "state": {
+        "dataSourceLinks": [],
+        "gridLayouts": [
+            {
+                "name": "Default",
+                "numColumns": 12,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_1",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgba(255, 255, 255, 0)",
+                                    "borderColor": "#A3B8CC",
+                                    "borderEdges": [],
+                                    "borderRadius": 16,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 8,
+                                "column": 2,
+                                "name": "text_1",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgba(255, 255, 255, 0)",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "image_1",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgba(255, 255, 255, 0)",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 10,
+                                "name": "image_2",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgba(255, 255, 255, 0)",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 4,
+                                "name": "container_2",
+                                "row": 3,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(255, 255, 255)",
+                                    "borderColor": "rgb(0, 135, 11)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 4
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 4,
+                                "name": "chart_2",
+                                "row": 5,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(255, 255, 255)",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 4,
+                                "name": "text_2",
+                                "row": 3,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(255, 255, 255)",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 1,
+                                "name": "listselector_1",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 3,
+                                "column": 8,
+                                "name": "pillbox_1",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 3,
+                                "name": "listselector_2",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 5,
+                                "name": "listselector_3",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "container_3",
+                                "row": 3,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(231, 223, 3)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 4
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 8,
+                                "name": "text_3",
+                                "row": 3,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "chart_1",
+                                "row": 5,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_4",
+                                "row": 12,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(206, 101, 3)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 4
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "text_4",
+                                "row": 12,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "chart_3",
+                                "row": 14,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "container_5",
+                                "row": 3,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(0, 96, 230)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 4
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "text_5",
+                                "row": 3,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 2,
+                                "name": "number_1",
+                                "row": 3,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 6,
+                                "name": "number_2",
+                                "row": 3,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 10,
+                                "name": "number_3",
+                                "row": 3,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 3,
+                                "column": 9,
+                                "name": "number_4",
+                                "row": 12,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "chart_5",
+                                "row": 5,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "normal",
+                "selectors": [],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#FFFFFF",
+                    "cellSpacingX": 8,
+                    "cellSpacingY": 8,
+                    "fit": "tile",
+                    "gutterColor": "#FFFFFF"
+                },
+                "version": 1
+            }
+        ],
+        "layouts": [],
+        "steps": {
+            "PROJECT_STATUS_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROJECT_STATUS\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "REGION_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"REGION\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "PROJECT_STATUS_ORDER_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROJECT_STATUS_ORDER\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "centerText": "",
+                        "centerValueType": "number",
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "showMeasureTitle": true,
+                        "valueType": "compactNumber",
+                        "visualizationType": "pie",
+                        "theme": "wave",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "inner": 60
+                    },
+                    "type": "chart"
+                }
+            },
+            "PROPERTY_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROPERTY\"],\"filters\":[[\"PROJECT_STATUS\",[\"Pending\"],\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "vbar"
+                }
+            },
+            "RSF_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"filters\":[[\"PROJECT_STATUS\",[\"Pending\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "RSF_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"filters\":[[\"PROJECT_STATUS\",[\"Eligible\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "static_1": {
+                "datasets": [],
+                "dimensions": [],
+                "groups": [],
+                "isFacet": false,
+                "isGlobal": false,
+                "numbers": [],
+                "selectMode": "singlerequired",
+                "strings": [],
+                "type": "staticflex",
+                "useGlobal": false,
+                "values": [
+                    "{\"display\":\"RSF\",\"value\":\"RSF\"}",
+                    "{\"display\":\"Occupancy\",\"value\":\"OCCUPENCY\"}"
+                ]
+            },
+            "RSF_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"filters\":[[\"PROJECT_STATUS\",\"Certified\",\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "PROPERTY_4": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"unique\",\"PROPERTY\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "CITY_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CITY\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "PROPERTY_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROPERTY\"],\"filters\":[[\"PROJECT_STATUS\",[\"Certified\"],\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "vbar"
+                }
+            },
+            "PROPERTY_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"PROPERTY\"],\"filters\":[[\"PROJECT_STATUS\",[\"Eligible\"],\"in\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "COUNTRY_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc9PKAS",
+                        "label": "SustainabilityMetrics",
+                        "name": "SustainabilityMetrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc9PKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"COUNTRY\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            }
+        },
+        "widgetStyle": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E6ECF2",
+            "borderEdges": [],
+            "borderRadius": 0,
+            "borderWidth": 1
+        },
+        "widgets": {
+            "listselector_3": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "CITY_1",
+                    "title": "City"
+                },
+                "type": "listselector"
+            },
+            "listselector_2": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "COUNTRY_1",
+                    "title": "Country"
+                },
+                "type": "listselector"
+            },
+            "text_1": {
+                "parameters": {
+                    "fontSize": 32,
+                    "text": "Sustainability Dashboard",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "number_4": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_RSF",
+                    "numberColor": "rgb(206, 101, 3)",
+                    "numberSize": 20,
+                    "step": "RSF_3",
+                    "textAlignment": "right",
+                    "title": "Total {{cell(static_1.selection, 0, \"display\").asObject()}}",
+                    "titleColor": "rgb(206, 101, 3)",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "number_3": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_RSF",
+                    "numberColor": "rgb(231, 223, 3)",
+                    "numberSize": 20,
+                    "step": "RSF_2",
+                    "textAlignment": "right",
+                    "title": "Total {{cell(static_1.selection, 0, \"display\").asObject()}}",
+                    "titleColor": "rgb(231, 223, 3)",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "container_1": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "number_2": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_RSF",
+                    "numberColor": "rgb(0, 135, 11)",
+                    "numberSize": 20,
+                    "step": "RSF_1",
+                    "textAlignment": "right",
+                    "title": "Total {{cell(static_1.selection, 0, \"display\").asObject()}}",
+                    "titleColor": "rgb(0, 135, 11)",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "container_2": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "number_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_PROPERTY",
+                    "numberColor": "rgb(0, 96, 230)",
+                    "numberSize": 20,
+                    "step": "PROPERTY_4",
+                    "textAlignment": "right",
+                    "title": "Total Building Count",
+                    "titleColor": "rgb(0, 96, 230)",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "pillbox_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "step": "static_1"
+                },
+                "type": "pillbox"
+            },
+            "container_3": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_4": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_5": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "image_1": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "center",
+                    "fit": "fitheight",
+                    "image": {
+                        "name": "logo198png",
+                        "namespace": ""
+                    }
+                },
+                "type": "image"
+            },
+            "text_3": {
+                "parameters": {
+                    "fontSize": 24,
+                    "text": "Pending",
+                    "textAlignment": "left",
+                    "textColor": "rgb(231, 223, 3)"
+                },
+                "type": "text"
+            },
+            "text_2": {
+                "parameters": {
+                    "fontSize": 24,
+                    "text": "Certified",
+                    "textAlignment": "left",
+                    "textColor": "rgb(0, 135, 11)"
+                },
+                "type": "text"
+            },
+            "chart_5": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "centerText": "",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "top-center",
+                        "inside": false
+                    },
+                    "showMeasureTitle": true,
+                    "axisMode": "multi",
+                    "visualizationType": "pie",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "inner": 60,
+                    "centerValueType": "number",
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "theme": "wave",
+                    "step": "PROJECT_STATUS_ORDER_1",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "listselector_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "REGION_1",
+                    "title": "Region"
+                },
+                "type": "listselector"
+            },
+            "text_5": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Project Summary",
+                    "textAlignment": "left",
+                    "textColor": "rgb(0, 96, 230)"
+                },
+                "type": "text"
+            },
+            "image_2": {
+                "parameters": {
+                    "alignmentX": "right",
+                    "alignmentY": "center",
+                    "fit": "fitheight",
+                    "image": {
+                        "name": "Greenbuildingastropng",
+                        "namespace": ""
+                    }
+                },
+                "type": "image"
+            },
+            "text_4": {
+                "parameters": {
+                    "fontSize": 24,
+                    "text": "Eligible",
+                    "textAlignment": "left",
+                    "textColor": "rgb(206, 101, 3)"
+                },
+                "type": "text"
+            },
+            "chart_2": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 1,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "rgb(0, 135, 11)",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": true,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "step": "PROPERTY_3",
+                    "theme": "wave",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "Property Name",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_1": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 1,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "rgb(231, 223, 3)",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": true,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "step": "PROPERTY_1",
+                    "theme": "wave",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "Property Name",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_3": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 1,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "rgb(206, 101, 3)",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": true,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "step": "PROPERTY_2",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            }
+        }
+    }
+}
