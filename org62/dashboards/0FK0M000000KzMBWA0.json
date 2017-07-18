@@ -1,0 +1,2785 @@
+{
+    "label": "REWS Lease Portfolio Overview",
+    "state": {
+        "dataSourceLinks": [
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "AnnualRentObligationReport",
+                        "dataSourceType": "saql",
+                        "fieldName": "FISCAL_YEAR"
+                    },
+                    {
+                        "dataSourceName": "SQFTLeaseExpiration",
+                        "dataSourceType": "saql",
+                        "fieldName": "FY"
+                    }
+                ],
+                "label": "YearConnection",
+                "name": "Link_2303"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "AnnualRentObligationReport",
+                        "dataSourceType": "saql",
+                        "fieldName": "OFFICE_TYPE"
+                    },
+                    {
+                        "dataSourceName": "SQFTLeaseExpiration",
+                        "dataSourceType": "saql",
+                        "fieldName": "OFFICE_TYPE"
+                    }
+                ],
+                "label": "OfficeTypeConnection",
+                "name": "Link_3160"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "AnnualRentObligationReport",
+                        "dataSourceType": "saql",
+                        "fieldName": "REGION"
+                    },
+                    {
+                        "dataSourceName": "SQFTLeaseExpiration",
+                        "dataSourceType": "saql",
+                        "fieldName": "REGION"
+                    }
+                ],
+                "label": "RegionConnection",
+                "name": "Link_3185"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "AnnualRentObligationReport",
+                        "dataSourceType": "saql",
+                        "fieldName": "CITY"
+                    },
+                    {
+                        "dataSourceName": "SQFTLeaseExpiration",
+                        "dataSourceType": "saql",
+                        "fieldName": "CITY"
+                    }
+                ],
+                "label": "CityConnection",
+                "name": "Link_3212"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "AnnualRentObligationReport",
+                        "dataSourceType": "saql",
+                        "fieldName": "BUILDING"
+                    },
+                    {
+                        "dataSourceName": "SQFTLeaseExpiration",
+                        "dataSourceType": "saql",
+                        "fieldName": "PROPERTY_NAME"
+                    }
+                ],
+                "label": "BuildingConnection",
+                "name": "Link_3751"
+            }
+        ],
+        "gridLayouts": [
+            {
+                "name": "Default",
+                "numColumns": 12,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_1",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#A3B8CC",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_1",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_1",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 2,
+                                "name": "listselector_2",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 4,
+                                "name": "listselector_3",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 6,
+                                "name": "listselector_4",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 8,
+                                "name": "listselector_5",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_2",
+                                "row": 3,
+                                "rowspan": 11,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(60, 176, 21)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 3,
+                                "name": "number_5",
+                                "row": 14,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "container_3",
+                                "row": 14,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(73, 67, 135)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "chart_1",
+                                "row": 16,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 4,
+                                "name": "container_4",
+                                "row": 14,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(162, 149, 8)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 3,
+                                "column": 0,
+                                "name": "text_3",
+                                "row": 14,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 4,
+                                "name": "chart_3",
+                                "row": 16,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 4,
+                                "name": "text_4",
+                                "row": 14,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "container_5",
+                                "row": 23,
+                                "rowspan": 11,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(189, 90, 19)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 4,
+                                "name": "number_6",
+                                "row": 23,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "text_5",
+                                "row": 23,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 0,
+                                "name": "listselector_6",
+                                "row": 24,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "chart_4",
+                                "row": 25,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "container_6",
+                                "row": 23,
+                                "rowspan": 11,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(7, 37, 67)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "chart_2",
+                                "row": 24,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "text_6",
+                                "row": 23,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_8",
+                                "row": 34,
+                                "rowspan": 21,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#77B0AD",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_8",
+                                "row": 34,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_8",
+                                "row": 35,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "table_1",
+                                "row": 36,
+                                "rowspan": 18,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 11,
+                                "column": 1,
+                                "name": "chart_7",
+                                "row": 4,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "pillbox_1",
+                                "row": 3,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 0,
+                                "name": "number_8",
+                                "row": 9,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 0,
+                                "name": "number_9",
+                                "row": 5,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 0,
+                                "name": "number_10",
+                                "row": 7,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 10,
+                                "name": "pillbox_2",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "container_7",
+                                "row": 14,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#9271E8",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "text_10",
+                                "row": 14,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "chart_5",
+                                "row": 16,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "normal",
+                "selectors": [],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#F2F6FA",
+                    "cellSpacingX": 8,
+                    "cellSpacingY": 8,
+                    "fit": "original",
+                    "gutterColor": "#C5D3E0"
+                },
+                "version": 1
+            },
+            {
+                "name": "iPhone",
+                "numColumns": 12,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_7",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "listselector_1",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 4,
+                                "name": "listselector_2",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_1",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#A3B8CC",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "listselector_3",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 2,
+                                "name": "listselector_4",
+                                "row": 3,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 6,
+                                "name": "listselector_5",
+                                "row": 3,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 8,
+                                "column": 2,
+                                "name": "pillbox_3",
+                                "row": 4,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_2",
+                                "row": 5,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "pillbox_1",
+                                "row": 6,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "chart_6",
+                                "row": 7,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "number_9",
+                                "row": 13,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 4,
+                                "name": "number_10",
+                                "row": 13,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "number_8",
+                                "row": 13,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_2",
+                                "row": 5,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(60, 176, 21)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 8,
+                                "column": 0,
+                                "name": "text_3",
+                                "row": 15,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 8,
+                                "name": "number_5",
+                                "row": 15,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "chart_1",
+                                "row": 17,
+                                "rowspan": 8,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_3",
+                                "row": 15,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(73, 67, 135)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_4",
+                                "row": 25,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "chart_3",
+                                "row": 27,
+                                "rowspan": 8,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_4",
+                                "row": 25,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(162, 149, 8)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_5",
+                                "row": 46,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "number_6",
+                                "row": 48,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 0,
+                                "name": "listselector_6",
+                                "row": 48,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "chart_4",
+                                "row": 49,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_5",
+                                "row": 46,
+                                "rowspan": 12,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(189, 90, 19)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_6",
+                                "row": 58,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "chart_2",
+                                "row": 60,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_6",
+                                "row": 58,
+                                "rowspan": 11,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(7, 37, 67)",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_8",
+                                "row": 69,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 3,
+                                "name": "listselector_8",
+                                "row": 71,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "table_1",
+                                "row": 72,
+                                "rowspan": 17,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_8",
+                                "row": 69,
+                                "rowspan": 20,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#77B0AD",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_9",
+                                "row": 35,
+                                "rowspan": 11,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#9271E8",
+                                    "borderEdges": [
+                                        "top"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 8
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "chart_5",
+                                "row": 37,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_10",
+                                "row": 35,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "normal",
+                "selectors": [
+                    "maxWidth(599)",
+                    "orientation(portrait)"
+                ],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#FFFFFF",
+                    "cellSpacingX": 4,
+                    "cellSpacingY": 4,
+                    "fit": "original",
+                    "gutterColor": "#FFFFFF"
+                },
+                "version": 1
+            }
+        ],
+        "layouts": [],
+        "steps": {
+            "BUILDING_3": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"TOT_RENT_OBLIGATION\",\"Total Rent Obligation\"],[\"sum\",\"TOT_SUBLEASE_INCOME\",\"Total Sublease Income\"]],\"groups\":[\"BUILDING\"],\"aggregateFilters\":[[[\"sum\",\"TOT_SUBLEASE_INCOME\",\"Total Sublease Income\"],[[0]],\"!=\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "options": {
+                        "legendHideHeader": false,
+                        "legendWidth": 145,
+                        "maxColumnWidth": 200,
+                        "minColumnWidth": 30,
+                        "miniBars": 0,
+                        "multiMetrics": true,
+                        "splitAxis": false,
+                        "trellis": false
+                    },
+                    "visualizationType": "vbar"
+                }
+            },
+            "CITY_BUILDING_LEASE__1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"pigql\":\"q = load \\\"AnnualRentObligationReport\\\";\\nq = filter q by {{ column(REGION_1.selection, [\\\"REGION\\\"]).asEquality('REGION') }};q = filter q by {{ column(FISCAL_YEAR_6.selection, [\\\"FISCAL_YEAR\\\"]).asEquality('FISCAL_YEAR') }};q = filter q by {{ column(CITY_1.selection, [\\\"CITY\\\"]).asEquality('CITY') }};q = filter q by {{ column(BUILDING_1.selection, [\\\"BUILDING\\\"]).asEquality('BUILDING') }};q = filter q by {{ column(OFFICE_TYPE_1.selection, [\\\"OFFICE_TYPE\\\"]).asEquality('OFFICE_TYPE') }}; q = foreach q generate 'BUILDING' as 'Building', 'CITY' as 'City', 'FISCAL_YEAR' as 'Fiscal Year','LEASE_EXP_DT' as 'Current Expiration Date','EXPENSE_INCOME' as 'Expense or Income', sum('REM_RENT_OBLIGATION') as 'Remaining Rent Obligation', sum('RSF') as 'Area (RSF)', sum('RSF') * 0.092903 as 'Area (RSM)', sum('TOT_RENT_OBLIGATION') as 'Total Rent Obligation', sum('TOT_SUBLEASE_INCOME') as 'Total Sublease Income';\\nq= order q by 'Current Expiration Date' asc;\\nq = limit q 100;\",\"measures\":[[\"sum\",\"RSF\",\"Area (RSF)\"],[\"sum\",\"RSM\",\"Area (RSM)\"],[\"sum\",\"REM_RENT_OBLIGATION\",\"Remaining Rent Obligation\"],[\"sum\",\"TOT_RENT_OBLIGATION\",\"Total Rent Obligation\"],[\"sum\",\"TOT_SUBLEASE_INCOME\",\"Total Sublease Income\"]],\"autoFilter\":true,\"groups\":[\"City\",\"Building\",\"Fiscal Year\",\"Current Expiration Date\",\"Expense or Income\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {}
+            },
+            "BUILDING_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"BUILDING\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "REM_RENT_OBLIGATION_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"REM_RENT_OBLIGATION\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "BUILDING_2": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDING\"]],\"filters\":[[\"OFFICE_TYPE\",[\"Executive Suite\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CITY_BUILDING_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"pigql\":\"q = load \\\"AnnualRentObligationReport\\\";q = filter q by 'EXPENSE_INCOME' != \\\"INCOME\\\";q = filter q by {{ column(REGION_1.selection, [\\\"REGION\\\"]).asEquality('REGION') }};q = filter q by {{ column(FISCAL_YEAR_5.selection, [\\\"FISCAL_YEAR\\\"]).asEquality('FISCAL_YEAR') }};q = filter q by {{ column(CITY_1.selection, [\\\"CITY\\\"]).asEquality('CITY') }};q = filter q by {{ column(BUILDING_1.selection, [\\\"BUILDING\\\"]).asEquality('BUILDING') }};q = filter q by {{ column(OFFICE_TYPE_1.selection, [\\\"OFFICE_TYPE\\\"]).asEquality('OFFICE_TYPE') }};q = group q by ('CITY','BUILDING');q = foreach q generate 'CITY' as 'CITY', 'BUILDING' as 'BUILDING', sum('RSF') as 'sum_RSF', sum('RSF') * 0.092903 as 'sum_RSM';q = order q by 'sum_RSF' desc;\",\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"groups\":[\"CITY\",\"BUILDING\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "BUILDINGID_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDINGID\"]],\"filters\":[[\"OFFICE_TYPE\",[\"Leased\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "BUILDINGID_3": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDINGID\"]],\"filters\":[[\"OFFICE_TYPE\",\"{{ column(OFFICE_TYPE_2.selection, [\\\"OFFICE_TYPE\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FISCAL_YEAR_5": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"FISCAL_YEAR\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "start": "[\"FY 2018\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "all_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "BUILDINGID_2": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDINGID\"]],\"filters\":[[\"OFFICE_TYPE\",[\"Owned\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FISCAL_YEAR_6": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"FISCAL_YEAR\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "COUNTRY_4": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDING\"]],\"groups\":[\"COUNTRY\"],\"filters\":[[\"OFFICE_TYPE\",\"{{ column(OFFICE_TYPE_2.selection, [\\\"OFFICE_TYPE\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FISCAL_YEAR_3": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"pigql\":\"q = load \\\"AnnualRentObligationReport\\\"; q = filter q by EXPENSE_INCOME not in [\\\"INCOME\\\"]; q = group q by FISCAL_YEAR; q = foreach q generate FISCAL_YEAR, sum(RSF) as sum_RSF, sum(RSF) * 0.092903 as sum_RSM;\",\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\",null,{\"display\":\" \"}]],\"autoFilter\":true,\"groups\":[\"FISCAL_YEAR\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "options": {
+                        "legendHideHeader": false,
+                        "legendWidth": 145,
+                        "maxColumnWidth": 200,
+                        "minColumnWidth": 30,
+                        "miniBars": 0,
+                        "multiMetrics": false,
+                        "splitAxis": false,
+                        "trellis": false
+                    },
+                    "visualizationType": "vbar"
+                }
+            },
+            "COUNTRY_3": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDING\"]],\"groups\":[\"COUNTRY\"],\"filters\":[[\"OFFICE_TYPE\",\"{{ column(OFFICE_TYPE_2.selection, [\\\"OFFICE_TYPE\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FISCAL_YEAR_4": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"FISCAL_YEAR\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "start": "[\"FY 2017\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "all_2": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"pigql\":\"q = load \\\"AnnualRentObligationReport\\\";q = filter q by 'EXPENSE_INCOME' != \\\"INCOME\\\";q = filter q by {{ column(REGION_1.selection, [\\\"REGION\\\"]).asEquality('REGION') }};q = filter q by {{ column(FISCAL_YEAR_5.selection, [\\\"FISCAL_YEAR\\\"]).asEquality('FISCAL_YEAR') }};q = filter q by {{ column(CITY_1.selection, [\\\"CITY\\\"]).asEquality('CITY') }};q = filter q by {{ column(BUILDING_1.selection, [\\\"BUILDING\\\"]).asEquality('BUILDING') }};q = filter q by {{ column(OFFICE_TYPE_1.selection, [\\\"OFFICE_TYPE\\\"]).asEquality('OFFICE_TYPE') }};q = group q by all; q = foreach q generate sum('RSF') as 'sum_RSF', sum('RSF') * 0.092903 as 'sum_RSM';\",\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CITY_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CITY\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "COUNTRY_2": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"pigql\":\"q = load \\\"AnnualRentObligationReport\\\";q = filter q by 'EXPENSE_INCOME' != \\\"INCOME\\\";q = filter q by {{ column(REGION_1.selection, [\\\"REGION\\\"]).asEquality('REGION') }};q = filter q by {{ column(FISCAL_YEAR_1.selection, [\\\"FISCAL_YEAR\\\"]).asEquality('FISCAL_YEAR') }};q = filter q by {{ column(CITY_1.selection, [\\\"CITY\\\"]).asEquality('CITY') }};q = filter q by {{ column(BUILDING_1.selection, [\\\"BUILDING\\\"]).asEquality('BUILDING') }};q = filter q by {{ column(OFFICE_TYPE_1.selection, [\\\"OFFICE_TYPE\\\"]).asEquality('OFFICE_TYPE') }};q = group q by ('LEASE_EXP_DT_Year');q = foreach q generate 'LEASE_EXP_DT_Year' as 'EXPIRATION', sum('RSF') as 'sum_RSF';\",\"measures\":[[\"sum\",\"RSF\"]],\"groups\":[\"EXPIRATION\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CITY_2": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"CITY\"]],\"filters\":[[\"OFFICE_TYPE\",\"{{ column(OFFICE_TYPE_2.selection, [\\\"OFFICE_TYPE\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FISCAL_YEAR_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"FISCAL_YEAR\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CITY_3": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDINGID\"]],\"groups\":[\"CITY\"],\"filters\":[[\"OFFICE_TYPE\",[\"Executive Suite\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FISCAL_YEAR_2": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"TOT_RENT_OBLIGATION\",null,{\"display\":\" \"}]],\"groups\":[\"FISCAL_YEAR\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "options": {
+                        "legendHideHeader": false,
+                        "legendWidth": 145,
+                        "maxColumnWidth": 200,
+                        "minColumnWidth": 30,
+                        "miniBars": 0,
+                        "multiMetrics": false,
+                        "splitAxis": false,
+                        "trellis": false
+                    },
+                    "visualizationType": "vbar"
+                }
+            },
+            "COUNTRY_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"COUNTRY\"]],\"filters\":[[\"OFFICE_TYPE\",\"{{ column(OFFICE_TYPE_2.selection, [\\\"OFFICE_TYPE\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CITY_4": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CITY\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FY_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOerSAG",
+                        "label": "SQFTLeaseExpiration",
+                        "name": "SQFTLeaseExpiration",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOerSAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"{{cell(static_1.selection, 0, \\\"value\\\").asObject()}}\"]],\"pigql\":\"q = load \\\"SQFTLeaseExpiration\\\"; q = group q by FY; q = foreach q generate FY, sum('LEASE_RENTABLE_AREA_RSF') as 'sum_RSF', sum('LEASE_RENTABLE_AREA_RSF') * 0.092903 as 'sum_RSM';\",\"autoFilter\":true,\"groups\":[\"FY\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "vbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "COUNTRY_CITY_2": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDINGID\"]],\"groups\":[\"COUNTRY\",\"CITY\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "COUNTRY_CITY_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"BUILDINGID\"]],\"groups\":[\"COUNTRY\",\"CITY\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "OFFICE_TYPE_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"OFFICE_TYPE\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "REGION_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"REGION\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "static_1": {
+                "datasets": [],
+                "dimensions": [],
+                "groups": [],
+                "isFacet": false,
+                "isGlobal": false,
+                "numbers": [],
+                "selectMode": "singlerequired",
+                "strings": [],
+                "type": "staticflex",
+                "useGlobal": false,
+                "values": [
+                    "{\"display\":\"Feet\",\"value\":\"RSF\"}",
+                    "{\"display\":\"Meters\",\"value\":\"RSM\"}"
+                ]
+            },
+            "OFFICE_TYPE_2": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "label": "",
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"OFFICE_TYPE\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "RSF_1": {
+                "datasets": [
+                    {
+                        "id": "0Fb0M000000TOLfSAO",
+                        "label": "AnnualRentObligationReport",
+                        "name": "AnnualRentObligationReport",
+                        "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"RSF\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            }
+        },
+        "widgetStyle": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E6ECF2",
+            "borderEdges": [],
+            "borderRadius": 0,
+            "borderWidth": 1
+        },
+        "widgets": {
+            "number_10": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_CITY",
+                    "numberColor": "#335779",
+                    "numberSize": 32,
+                    "step": "CITY_2",
+                    "textAlignment": "center",
+                    "title": "Cities",
+                    "titleColor": "#335779",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "number_9": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_COUNTRY",
+                    "numberColor": "#335779",
+                    "numberSize": 32,
+                    "step": "COUNTRY_1",
+                    "textAlignment": "center",
+                    "title": "Countries",
+                    "titleColor": "#335779",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "text_10": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Lease Expiration by Year (Sq. {{cell(static_1.selection, 0, \"display\").asObject()}})\n",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "number_8": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_BUILDINGID",
+                    "numberColor": "#335779",
+                    "numberSize": 32,
+                    "step": "BUILDINGID_3",
+                    "textAlignment": "center",
+                    "title": "Buildings",
+                    "titleColor": "#335779",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "number_6": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_RSF",
+                    "numberColor": "#335779",
+                    "numberSize": 24,
+                    "step": "all_2",
+                    "textAlignment": "center",
+                    "title": "Rentable Square {{cell(static_1.selection, 0, \"display\").asObject()}}",
+                    "titleColor": "#335779",
+                    "titleSize": 12
+                },
+                "type": "number"
+            },
+            "text_11": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Add text.",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "container_1": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_2": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_3": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_9": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "step": "FY_1",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "container_4": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_5": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "text_3": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Total Rent Obligation",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "container_6": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_6": {
+                "parameters": {
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": true
+                    },
+                    "highColor": "#009DDF",
+                    "lowColor": "#E2F4FC",
+                    "visualizationType": "choropleth",
+                    "step": "COUNTRY_4",
+                    "theme": "wave",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "map": "World Countries"
+                },
+                "type": "chart"
+            },
+            "text_2": {
+                "parameters": {
+                    "fontSize": 24,
+                    "text": "Global Lease Portfolio",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "container_7": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_5": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "light",
+                    "step": "FY_1",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "text_5": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Total Area by Building (Sq. {{cell(static_1.selection, 0, \"display\").asObject()}})",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "container_8": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "text_4": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Total Area by Year (Sq. {{cell(static_1.selection, 0, \"display\").asObject()}})",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "chart_7": {
+                "parameters": {
+                    "radiusRatio": 3,
+                    "maxRadius": 30,
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": true
+                    },
+                    "highColor": "rgb(0, 17, 236)",
+                    "lowColor": "rgb(93, 157, 234)",
+                    "visualizationType": "bubblemap",
+                    "step": "COUNTRY_3",
+                    "theme": "wave",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "map": "Custom: world countries"
+                },
+                "type": "chart"
+            },
+            "container_9": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_2": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "top-center",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "light",
+                    "step": "BUILDING_3",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "text_7": {
+                "parameters": {
+                    "fontSize": 24,
+                    "text": "Lease Portfolio Overview",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "chart_1": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": false,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "light",
+                    "step": "FISCAL_YEAR_2",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "text_6": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Sublease Income by Building",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "chart_4": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "step": "CITY_BUILDING_1",
+                    "theme": "light",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_3": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "light",
+                    "step": "FISCAL_YEAR_3",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "text_8": {
+                "parameters": {
+                    "fontSize": 24,
+                    "text": "Lease Details",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "listselector_6": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "count",
+                    "step": "FISCAL_YEAR_5",
+                    "title": "Fiscal Year"
+                },
+                "type": "listselector"
+            },
+            "listselector_8": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "FISCAL_YEAR_6",
+                    "title": "Fiscal Year"
+                },
+                "type": "listselector"
+            },
+            "listselector_3": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "BUILDING_1",
+                    "title": "Building"
+                },
+                "type": "listselector"
+            },
+            "listselector_2": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "CITY_1",
+                    "title": "City"
+                },
+                "type": "listselector"
+            },
+            "text_1": {
+                "parameters": {
+                    "fontSize": 32,
+                    "text": "REWS Lease Portfolio Overview",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "listselector_5": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "FISCAL_YEAR_1",
+                    "title": "Fiscal Year"
+                },
+                "type": "listselector"
+            },
+            "listselector_4": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "OFFICE_TYPE_1",
+                    "title": "Office Type"
+                },
+                "type": "listselector"
+            },
+            "number_5": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_REM_RENT_OBLIGATION",
+                    "numberColor": "#335779",
+                    "numberSize": 24,
+                    "step": "REM_RENT_OBLIGATION_1",
+                    "textAlignment": "center",
+                    "title": "Remaining",
+                    "titleColor": "#335779",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "table_1": {
+                "parameters": {
+                    "customBulkActions": [],
+                    "exploreLink": false,
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "pivoted": false,
+                    "step": "CITY_BUILDING_LEASE__1"
+                },
+                "type": "table"
+            },
+            "pillbox_2": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "step": "static_1"
+                },
+                "type": "pillbox"
+            },
+            "pillbox_1": {
+                "parameters": {
+                    "compact": false,
+                    "displayTemplate": "[\"OFFICE_TYPE\"]",
+                    "exploreLink": false,
+                    "measureField": "none",
+                    "step": "OFFICE_TYPE_2"
+                },
+                "type": "pillbox"
+            },
+            "pillbox_3": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "step": "static_1"
+                },
+                "type": "pillbox"
+            },
+            "listselector_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "REGION_1",
+                    "title": "Region"
+                },
+                "type": "listselector"
+            }
+        }
+    },
+    "datasets": [
+        {
+            "id": "0Fb0M000000TOLfSAO",
+            "label": "AnnualRentObligationReport",
+            "name": "AnnualRentObligationReport",
+            "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOLfSAO"
+        },
+        {
+            "id": "0Fb0M000000TOerSAG",
+            "label": "SQFTLeaseExpiration",
+            "name": "SQFTLeaseExpiration",
+            "url": "/services/data/v40.0/wave/datasets/0Fb0M000000TOerSAG"
+        }
+    ]
+}
