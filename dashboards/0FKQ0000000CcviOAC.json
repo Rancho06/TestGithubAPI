@@ -1,0 +1,3917 @@
+{
+    "label": "Employee Trailblazing Dashboard Demo",
+    "state": {
+        "dataSourceLinks": [
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "wv_trn_trailhead",
+                        "dataSourceType": "saql",
+                        "fieldName": "MGT_USR_NM_PATH"
+                    },
+                    {
+                        "dataSourceName": "UserDirectHierarchyTraining",
+                        "dataSourceType": "saql",
+                        "fieldName": "USR_NM"
+                    }
+                ],
+                "label": "UDHTrailheadUserNameConnection",
+                "name": "Link_16060"
+            }
+        ],
+        "gridLayouts": [
+            {
+                "name": "Default",
+                "numColumns": 48,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "container_12",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 13,
+                                "column": 4,
+                                "name": "listselector_4",
+                                "row": 0,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 4
+                                }
+                            },
+                            {
+                                "colspan": 13,
+                                "column": 19,
+                                "name": "listselector_8",
+                                "row": 0,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#66ffff",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 14,
+                                "column": 34,
+                                "name": "listselector_6",
+                                "row": 0,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 4,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 7,
+                                "column": 4,
+                                "name": "listselector_9",
+                                "row": 1,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#66ffff",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 7,
+                                "column": 12,
+                                "name": "listselector_2",
+                                "row": 1,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 4,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 7,
+                                "column": 20,
+                                "name": "dateselector_1",
+                                "row": 1,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [],
+                                    "borderRadius": 4,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 7,
+                                "column": 28,
+                                "name": "listselector_10",
+                                "row": 1,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#66ffff",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 36,
+                                "name": "pillbox_1",
+                                "row": 1,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#091A3E",
+                                    "borderEdges": [],
+                                    "borderRadius": 4
+                                }
+                            },
+                            {
+                                "colspan": 44,
+                                "column": 4,
+                                "name": "container_6",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 9,
+                                "column": 0,
+                                "name": "number_1",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#66ffff",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 9,
+                                "column": 20,
+                                "name": "number_5",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#66ffff",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 10,
+                                "column": 38,
+                                "name": "number_11",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [],
+                                    "borderRadius": 16
+                                }
+                            },
+                            {
+                                "colspan": 48,
+                                "column": 0,
+                                "name": "container_11",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 24,
+                                "column": 0,
+                                "name": "chart_8",
+                                "row": 17,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16
+                                }
+                            },
+                            {
+                                "colspan": 24,
+                                "column": 24,
+                                "name": "chart_10",
+                                "row": 17,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16
+                                }
+                            },
+                            {
+                                "colspan": 48,
+                                "column": 0,
+                                "name": "container_9",
+                                "row": 3,
+                                "rowspan": 23,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 24,
+                                "column": 24,
+                                "name": "chart_22",
+                                "row": 3,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 24,
+                                "column": 0,
+                                "name": "chart_21",
+                                "row": 3,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 24,
+                                "column": 0,
+                                "name": "chart_23",
+                                "row": 10,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 24,
+                                "column": 24,
+                                "name": "chart_9",
+                                "row": 10,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 1
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "normal",
+                "selectors": [],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#F2F6FA",
+                    "cellSpacingX": 8,
+                    "cellSpacingY": 8,
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "version": 1
+            },
+            {
+                "name": "Mobile - My Team's top Trailblazers",
+                "numColumns": 2,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_4",
+                                "row": 0,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 4
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_3",
+                                "row": 1,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 4
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_6",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 4,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "pillbox_1",
+                                "row": 3,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#091A3E",
+                                    "borderEdges": [],
+                                    "borderRadius": 4
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_2",
+                                "row": 4,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 4,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "dateselector_1",
+                                "row": 5,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#FFFFFF",
+                                    "borderEdges": [],
+                                    "borderRadius": 4,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "container_6",
+                                "row": 0,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "number_11",
+                                "row": 6,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [],
+                                    "borderRadius": 16
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "container_11",
+                                "row": 6,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_8",
+                                "row": 30,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_10",
+                                "row": 39,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "container_9",
+                                "row": 7,
+                                "rowspan": 41,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_18",
+                                "row": 7,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_19",
+                                "row": 14,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_20",
+                                "row": 21,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "rgb(216, 221, 230)",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 8,
+                                    "borderWidth": 1
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "normal",
+                "selectors": [
+                    "maxWidth(599)"
+                ],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#F2F6FA",
+                    "cellSpacingX": 8,
+                    "cellSpacingY": 8,
+                    "fit": "original",
+                    "gutterColor": "#C5D3E0"
+                },
+                "version": 1
+            }
+        ],
+        "layouts": [],
+        "steps": {
+            "FULL_NM_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"CRSE_NM\"]],\"groups\":[\"FULL_NM\"],\"filters\":[[\"FULL_NM\",\"{{ column(MGT_USR_NM_PATH_1.selection, [\\\"MGT_USR_NM_PATH\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FULL_NM_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ00000009689KAA",
+                        "label": "wv_trailhead_2ndCopy",
+                        "name": "wv_trailhead_2ndCopy",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ00000009689KAA"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"CRSE_NM\"]],\"groups\":[\"FULL_NM\"],\"filters\":[[\"DRVD_MGR_NM\",\"{{ column(MGT_USR_NM_PATH_1.selection, [\\\"MGT_USR_NM_PATH\\\"]).asObject() }}\"],[\"FULL_NM\",\"{{ column(USR_NM_1.selection, [\\\"USR_NM\\\"]).asObject() }}\"],[\"REGN_NM\",\"{{ column(REGN_NM_3.selection, [\\\"REGN_NM\\\"]).asObject() }}\"],[\"MGR_FLG\",\"{{ column(MGR_FLG_1.selection, [\\\"MGR_FLG\\\"]).asObject() }}\"],[\"CRSE_NM\",\"{{ column(CRSE_NM_2.selection, [\\\"CRSE_NM\\\"]).asObject() }}\"],[\"CRSE_CMPLTN_DT\",[\"{{row(CRSE_CMPLTN_DT_Year_1.selection, [0], [\\\"min\\\", \\\"max\\\"]).asObject()}}\"],\">=<=\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FULL_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"FULL_NM\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "PRNT_CRSE_NM_5": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"unique\",\"PRNT_CRSE_NM\"]],\"filters\":[[\"PRNT_CRSE_STATUS\",[\"In Progress\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "PRNT_CRSE_NM_4": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"unique\",\"PRNT_CRSE_NM\"]],\"filters\":[[\"PRNT_CRSE_STATUS\",[\"Completed\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "PRNT_CRSE_NM_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"PRNT_CRSE_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "PRNT_CRSE_NM_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"PRNT_CRSE_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "REGN_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"REGN_NM\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "REGN_NM_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"REGN_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "PRNT_CRSE_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"PRNT_CRSE_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "REGN_NM_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"REGN_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "REGN_NM_4": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"EMP_ID\"]],\"groups\":[\"REGN_NM\"],\"filters\":[[\"MGT_USR_NM_PATH\",\"{{ column(FULL_NM_2.selection, [\\\"FULL_NM\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "pie"
+                }
+            },
+            "REGN_NM_5": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"EMP_MODULE\"]],\"groups\":[\"REGN_NM\"],\"filters\":[[\"MGT_USR_NM_PATH\",\"{{ column(FULL_NM_2.selection, [\\\"FULL_NM\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "MGR_FLG_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"MGR_FLG\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CRSE_CMPLTN_DT_Year_COMPL__1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"CRSE_CMPLTN_DT_Year\",\"CRSE_CMPLTN_DT_Month\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "vbar"
+                }
+            },
+            "FULL_NM_CRSE_STATUS_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"CRSE_NM\"]],\"groups\":[\"FULL_NM\"],\"filters\":[[\"MGT_USR_NM_PATH\",\"{{ column(FULL_NM_2.selection, [\\\"FULL_NM\\\"]).asObject() }}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "stackhbar"
+                }
+            },
+            "FULL_NM_CRSE_STATUS_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"unique\",\"CRSE_NM\"]],\"groups\":[\"FULL_NM\",\"CRSE_STATUS\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "normalize": false,
+                        "visualizationType": "stackhbar",
+                        "theme": "wave",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "FULL_NM_CRSE_NM_4": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CRSE_NM\"],\"filters\":[],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "stackhbar"
+                }
+            },
+            "CRSE_CMPLTN_DT_Year_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CRSE_CMPLTN_DT_Year_Fiscal\",\"CRSE_CMPLTN_DT_Quarter_Fiscal\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "EMP_ID_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"EMP_ID\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "FULL_NM_CRSE_STATUS_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"unique\",\"CRSE_NM\"]],\"autoFilter\":true,\"groups\":[\"FULL_NM\",\"CRSE_STATUS\"],\"filters\":[[\"DRVD_MGR_NM\",\"{{ column(MGT_USR_NM_PATH_1.selection, [\\\"MGT_USR_NM_PATH\\\"]).asObject() }}\"],[\"FULL_NM\",\"{{ column(USR_NM_1.selection, [\\\"USR_NM\\\"]).asObject() }}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "normalize": false,
+                        "visualizationType": "stackhbar",
+                        "theme": "wave",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "MGT_USR_ID_PATH_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"MGT_USR_ID_PATH\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "all_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "all_5": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"EMP_MODULE\"]],\"filters\":[[\"MGT_USR_NM_PATH\",\"{{ column(FULL_NM_2.selection, [\\\"FULL_NM\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "PRNT_CRSE_NM_PRNT_CR_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"FULL_NM\"]],\"groups\":[\"PRNT_CRSE_NM\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "stackhbar"
+                }
+            },
+            "CRSE_NM_CRSE_STATUS_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"EMP_ID\"]],\"groups\":[\"CRSE_NM\"],\"filters\":[[\"MGT_USR_NM_PATH\",\"{{ column(FULL_NM_2.selection, [\\\"FULL_NM\\\"]).asObject() }}\"]],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "stackhbar"
+                }
+            },
+            "CRSE_NM_CRSE_STATUS_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"unique\",\"EMP_ID\"]],\"groups\":[\"CRSE_NM\",\"CRSE_STATUS\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "PRNT_CRSE_NM_PRNT_CR_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"unique\",\"EMP_ID\"]],\"groups\":[\"PRNT_CRSE_NM\",\"PRNT_CRSE_STATUS\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "normalize": false,
+                        "visualizationType": "stackhbar",
+                        "theme": "wave",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "PRNT_CRSE_NM_PRNT_CR_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"PRNT_CRSE_NM\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "options": {
+                        "normalize": true
+                    },
+                    "visualizationType": "stackvbar"
+                }
+            },
+            "CRSE_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"CRSE_NM\"]],\"groups\":[\"CRSE_NM\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CRSE_STATUS_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CRSE_STATUS\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "USR_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cby7KAC",
+                        "label": "UserDirectHierarchyTraining",
+                        "name": "UserDirectHierarchyTraining",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cby7KAC"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"USR_NM\"],\"filters\":[[\"MGR_USR_NM\",\"{{column(MGT_USR_NM_PATH_1.selection,[\\\"MGT_USR_NM_PATH\\\"]).asObject()}}\",\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CRSE_REC_REQ_TYP_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CRSE_NM\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "DATA_SRC_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CNTRY_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CNTRY_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CNTRY_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "vbar"
+                }
+            },
+            "EMP_TOT_TNURE_GRP_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"EMP_ID\"]],\"groups\":[\"EMP_TOT_TNURE_GRP\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "pie"
+                }
+            },
+            "MGR_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"FULL_NM\"],\"filters\":[],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "USR_MODL_NM_5": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"CRSE_NM\"]],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "SMPL_REGION_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"REGN_NM\"],\"order\":[]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "CRSE_NM_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CRSE_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "MGT_USR_NM_PATH_CRSE_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"CRSE_NM\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "options": {
+                        "normalize": true
+                    },
+                    "visualizationType": "stackvbar"
+                }
+            },
+            "USR_MODL_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"CRSE_NM\"]],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "MGT_USR_NM_PATH_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000Cc4KKAS",
+                        "label": "wv_trn_trailhead",
+                        "name": "wv_trn_trailhead",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"MGT_USR_NM_PATH\"],\"order\":[[-1,{\"ascending\":false}]]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            }
+        },
+        "widgetStyle": {
+            "backgroundColor": "#091A3E",
+            "borderColor": "#66ffff",
+            "borderEdges": [],
+            "borderRadius": 0,
+            "borderWidth": 1
+        },
+        "widgets": {
+            "number_11": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_EMP_MODULE",
+                    "numberColor": "#091A3E",
+                    "numberSize": 24,
+                    "step": "all_5",
+                    "textAlignment": "center",
+                    "title": "Total Earned Badges",
+                    "titleColor": "#091A3E",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "container_1": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_2": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_3": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_9": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "top-center",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackhbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Trails by Status",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "theme": "wave",
+                    "step": "PRNT_CRSE_NM_PRNT_CR_3",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "container_4": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_5": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_6": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackhbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Tenure Grouping",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": true,
+                    "theme": "dark",
+                    "step": "EMP_TOT_TNURE_GRP_2",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "text_3": {
+                "parameters": {
+                    "fontSize": 14,
+                    "text": "# Total Req Trainings",
+                    "textAlignment": "center",
+                    "textColor": "#FFFFFF"
+                },
+                "type": "text"
+            },
+            "container_6": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "text_2": {
+                "parameters": {
+                    "fontSize": 32,
+                    "text": "Trailhead Completions",
+                    "textAlignment": "center",
+                    "textColor": "#FFFFFF"
+                },
+                "type": "text"
+            },
+            "container_7": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_5": {
+                "parameters": {
+                    "centerText": "",
+                    "centerValueType": "number",
+                    "showMeasureTitle": false,
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "valueType": "compactNumber",
+                    "visualizationType": "pie",
+                    "theme": "dark",
+                    "step": "REGN_NM_4",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Count of Employees",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "inner": 70
+                },
+                "type": "chart"
+            },
+            "container_8": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_8": {
+                "parameters": {
+                    "centerText": "",
+                    "centerValueType": "number",
+                    "showMeasureTitle": false,
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "valueType": "compactNumber",
+                    "visualizationType": "pie",
+                    "theme": "light",
+                    "step": "REGN_NM_4",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Number of selected Employees by Region",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "inner": 70
+                },
+                "type": "chart"
+            },
+            "text_5": {
+                "parameters": {
+                    "fontSize": 18,
+                    "text": "****",
+                    "textAlignment": "center",
+                    "textColor": "rgb(230, 32, 73)"
+                },
+                "type": "text"
+            },
+            "text_4": {
+                "parameters": {
+                    "fontSize": 14,
+                    "text": "# Req Complete",
+                    "textAlignment": "center",
+                    "textColor": "#FFFFFF"
+                },
+                "type": "text"
+            },
+            "chart_7": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "visualizationType": "stackvbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Total Completions",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": true,
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "referenceLine": {
+                            "color": "rgb(0, 161, 224)",
+                            "label": "Goal",
+                            "value": 65
+                        },
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "dark",
+                    "step": "PRNT_CRSE_NM_PRNT_CR_2",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "container_9": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_2": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "hbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "step": "REGN_NM_2",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_1": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Completions per Month",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "dark",
+                    "step": "CRSE_CMPLTN_DT_Year_COMPL__1",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "Completions Per Month",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "text_6": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "sfdc.co/DashGuide",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "chart_4": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "hbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Employee Leaderboards",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "dark",
+                    "step": "FULL_NM_1",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_3": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "hbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Number of Employees by Course name",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "dark",
+                    "step": "CRSE_NM_1",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_20": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "hbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Total Completed Badges",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "light",
+                    "step": "CRSE_NM_CRSE_STATUS_1",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "dateselector_1": {
+                "parameters": {
+                    "calendarTypeSwitchingAllowed": true,
+                    "defaultAbsoluteMode": false,
+                    "defaultFiscalMode": true,
+                    "instant": true,
+                    "modeSwitchingAllowed": true,
+                    "step": "CRSE_CMPLTN_DT_Year_1",
+                    "title": "Timeframe (Completion dates are GMT-based)"
+                },
+                "type": "dateselector"
+            },
+            "text_1": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "People Manager:",
+                    "textAlignment": "center",
+                    "textColor": "#FFFFFF"
+                },
+                "type": "text"
+            },
+            "number_5": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_PRNT_CRSE_NM",
+                    "numberColor": "#091A3E",
+                    "numberSize": 24,
+                    "step": "PRNT_CRSE_NM_5",
+                    "textAlignment": "center",
+                    "title": "# of In Progress Trails",
+                    "titleColor": "#091A3E",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "number_4": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_EMP_ID",
+                    "numberColor": "#091A3E",
+                    "numberSize": 14,
+                    "step": "EMP_ID_1",
+                    "textAlignment": "right",
+                    "title": "Headcount",
+                    "titleColor": "#091A3E",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "number_3": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_USR_MODL_NM",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 14,
+                    "step": "USR_MODL_NM_1",
+                    "textAlignment": "right",
+                    "title": "",
+                    "titleColor": "#335779",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "number_2": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "count",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 16,
+                    "step": "all_2",
+                    "textAlignment": "right",
+                    "title": "Total Req/Recommended",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "number_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_PRNT_CRSE_NM",
+                    "numberColor": "#091A3E",
+                    "numberSize": 24,
+                    "step": "PRNT_CRSE_NM_4",
+                    "textAlignment": "center",
+                    "title": "# of Completed Trails",
+                    "titleColor": "#091A3E",
+                    "titleSize": 16
+                },
+                "type": "number"
+            },
+            "chart_19": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "hbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Completed Badges by Employee ",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "light",
+                    "step": "FULL_NM_CRSE_STATUS_2",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_18": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "hbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Completed Badges by Direct Reports",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "light",
+                    "step": "FULL_NM_2",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_17": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackvbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Org Manager Completions",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": true,
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "referenceLine": {
+                            "color": "rgb(0, 161, 224)",
+                            "label": "Goal",
+                            "value": 80
+                        },
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "dark",
+                    "step": "MGT_USR_NM_PATH_CRSE_2",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "container_12": {
+                "parameters": {
+                    "alignmentX": "center",
+                    "alignmentY": "top",
+                    "fit": "fitheight",
+                    "image": {
+                        "name": "WaveLogopng",
+                        "namespace": ""
+                    }
+                },
+                "type": "container"
+            },
+            "container_11": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_16": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "hbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Manager - Completed Modules/Badges",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "step": "FULL_NM_3",
+                    "theme": "light",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "listselector_10": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "CRSE_STATUS_1",
+                    "title": "Badge Status"
+                },
+                "type": "listselector"
+            },
+            "chart_14": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackhbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "ES Courses and Trails",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "dark",
+                    "step": "PRNT_CRSE_NM_PRNT_CR_1",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_13": {
+                "parameters": {
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": true
+                    },
+                    "highColor": "#1674D9",
+                    "lowColor": "#C5DBF7",
+                    "visualizationType": "choropleth",
+                    "theme": "dark",
+                    "step": "CNTRY_NM_1",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "map": "World Countries"
+                },
+                "type": "chart"
+            },
+            "chart_12": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackhbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Past Due and Not Completed",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "dark",
+                    "step": "FULL_NM_CRSE_NM_4",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_10": {
+                "parameters": {
+                    "centerText": "",
+                    "centerValueType": "number",
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "showMeasureTitle": false,
+                    "valueType": "compactNumber",
+                    "visualizationType": "pie",
+                    "theme": "light",
+                    "step": "REGN_NM_5",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Total Earned Badges by Region",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "inner": 70
+                },
+                "type": "chart"
+            },
+            "number_8": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "unique_CRSE_REC_REQ_TYP",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 14,
+                    "step": "USR_MODL_NM_5",
+                    "textAlignment": "right",
+                    "title": "",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "chart_23": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "top-center",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackhbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Badges by Status",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "theme": "wave",
+                    "step": "CRSE_NM_CRSE_STATUS_2",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_22": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "top-center",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackhbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Badge Status by Employee",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "theme": "wave",
+                    "step": "FULL_NM_CRSE_STATUS_1",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_21": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "top-center",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackhbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "Badge Status by Directs",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "theme": "wave",
+                    "step": "FULL_NM_CRSE_STATUS_3",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    }
+                },
+                "type": "chart"
+            },
+            "listselector_7": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "PRNT_CRSE_NM_2",
+                    "title": "Trail Name"
+                },
+                "type": "listselector"
+            },
+            "listselector_6": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "REGN_NM_3",
+                    "title": "Region"
+                },
+                "type": "listselector"
+            },
+            "listselector_9": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "PRNT_CRSE_NM_3",
+                    "title": "Trail Name"
+                },
+                "type": "listselector"
+            },
+            "listselector_8": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "USR_NM_1",
+                    "title": "Directs "
+                },
+                "type": "listselector"
+            },
+            "listselector_3": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "MGR_NM_1",
+                    "title": "Direct Reports (\"All\" = entire Org)"
+                },
+                "type": "listselector"
+            },
+            "listselector_2": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "CRSE_NM_2",
+                    "title": "Badge Name"
+                },
+                "type": "listselector"
+            },
+            "listselector_5": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "count",
+                    "step": "PRNT_CRSE_NM_1",
+                    "title": "ES Courses and Trails"
+                },
+                "type": "listselector"
+            },
+            "listselector_4": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "MGT_USR_NM_PATH_1",
+                    "title": "Manager/Employee"
+                },
+                "type": "listselector"
+            },
+            "link_1": {
+                "parameters": {
+                    "destinationType": "lens",
+                    "fontSize": 12,
+                    "includeState": false,
+                    "text": "Button title",
+                    "textColor": "#091A3E"
+                },
+                "type": "link"
+            },
+            "pillbox_2": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "measureField": "count",
+                    "step": "CRSE_REC_REQ_TYP_1"
+                },
+                "type": "pillbox"
+            },
+            "pillbox_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "measureField": "count",
+                    "step": "MGR_FLG_1"
+                },
+                "type": "pillbox"
+            },
+            "pillbox_4": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "measureField": "count",
+                    "step": "SMPL_REGION_1"
+                },
+                "type": "pillbox"
+            },
+            "pillbox_3": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "count",
+                    "step": "REGN_NM_1"
+                },
+                "type": "pillbox"
+            },
+            "pillbox_5": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": true,
+                    "measureField": "count",
+                    "step": "DATA_SRC_1"
+                },
+                "type": "pillbox"
+            },
+            "listselector_1": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": true,
+                    "instant": true,
+                    "measureField": "count",
+                    "step": "MGT_USR_ID_PATH_1",
+                    "title": "Manager Path (ID)"
+                },
+                "type": "listselector"
+            }
+        }
+    },
+    "datasets": [
+        {
+            "id": "0FbQ00000009689KAA",
+            "label": "wv_trailhead_2ndCopy",
+            "name": "wv_trailhead_2ndCopy",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ00000009689KAA"
+        },
+        {
+            "id": "0FbQ0000000Cby7KAC",
+            "label": "UserDirectHierarchyTraining",
+            "name": "UserDirectHierarchyTraining",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cby7KAC"
+        },
+        {
+            "id": "0FbQ0000000Cc4KKAS",
+            "label": "wv_trn_trailhead",
+            "name": "wv_trn_trailhead",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000Cc4KKAS"
+        }
+    ]
+}
