@@ -1,0 +1,1759 @@
+{
+    "label": "GOC Dashboard 2.0",
+    "state": {
+        "dataSourceLinks": [],
+        "gridLayouts": [
+            {
+                "name": "Default",
+                "numColumns": 12,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_3",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#7D98B3",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_10",
+                                "row": 22,
+                                "rowspan": 18,
+                                "widgetStyle": {
+                                    "borderColor": "#7D98B3",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "container_11",
+                                "row": 2,
+                                "rowspan": 20,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#7D98B3",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 12,
+                                "column": 0,
+                                "name": "text_1",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#7D98B3",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "chart_1",
+                                "row": 5,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ]
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "chart_2",
+                                "row": 5,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ]
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "chart_3",
+                                "row": 14,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ]
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "chart_5",
+                                "row": 14,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ]
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "text_2",
+                                "row": 4,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "text_3",
+                                "row": 4,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "text_4",
+                                "row": 13,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "text_5",
+                                "row": 13,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 6,
+                                "name": "listselector_1",
+                                "row": 2,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 8,
+                                "name": "listselector_2",
+                                "row": 2,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 10,
+                                "name": "listselector_3",
+                                "row": 2,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 6,
+                                "name": "listselector_4",
+                                "row": 24,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 8,
+                                "name": "listselector_5",
+                                "row": 24,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 10,
+                                "name": "listselector_6",
+                                "row": 24,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "text_8",
+                                "row": 2,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "text_9",
+                                "row": 22,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_7",
+                                "row": 24,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 2,
+                                "name": "listselector_8",
+                                "row": 24,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 4,
+                                "name": "listselector_9",
+                                "row": 24,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 0,
+                                "name": "pillbox_2",
+                                "row": 27,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 7,
+                                "name": "pillbox_3",
+                                "row": 27,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 0,
+                                "name": "text_12",
+                                "row": 26,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#091A3E",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 7,
+                                "name": "text_13",
+                                "row": 26,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 0,
+                                "name": "chart_8",
+                                "row": 29,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 6,
+                                "name": "table_2",
+                                "row": 29,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "normal",
+                "selectors": [],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#F2F6FA",
+                    "cellSpacingX": 8,
+                    "cellSpacingY": 8,
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "version": 1
+            },
+            {
+                "name": "iOS",
+                "numColumns": 2,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "text_1",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#7D98B3",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "container_3",
+                                "row": 0,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#7D98B3",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "text_8",
+                                "row": 2,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_1",
+                                "row": 4,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_2",
+                                "row": 6,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_3",
+                                "row": 8,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "text_2",
+                                "row": 10,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "text_3",
+                                "row": 18,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_1",
+                                "row": 11,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ]
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_2",
+                                "row": 19,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ]
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "text_4",
+                                "row": 26,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "text_5",
+                                "row": 34,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_3",
+                                "row": 27,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ]
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_5",
+                                "row": 35,
+                                "rowspan": 7,
+                                "widgetStyle": {
+                                    "borderEdges": [
+                                        "all"
+                                    ]
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "container_11",
+                                "row": 2,
+                                "rowspan": 40,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#7D98B3",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "text_9",
+                                "row": 42,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_7",
+                                "row": 44,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_8",
+                                "row": 46,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_9",
+                                "row": 48,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_4",
+                                "row": 50,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_5",
+                                "row": 52,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "listselector_6",
+                                "row": 54,
+                                "rowspan": 2,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 0,
+                                "name": "text_12",
+                                "row": 56,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#091A3E",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 1,
+                                "column": 0,
+                                "name": "text_13",
+                                "row": 58,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "pillbox_2",
+                                "row": 57,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "pillbox_3",
+                                "row": 59,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "chart_8",
+                                "row": 60,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "table_2",
+                                "row": 69,
+                                "rowspan": 9,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 0,
+                                "name": "container_10",
+                                "row": 42,
+                                "rowspan": 36,
+                                "widgetStyle": {
+                                    "borderColor": "#7D98B3",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderWidth": 2
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "normal",
+                "selectors": [
+                    "maxWidth(599)",
+                    "orientation(portrait)",
+                    "platform(iOS)"
+                ],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#F2F6FA",
+                    "cellSpacingX": 8,
+                    "cellSpacingY": 8,
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "version": 1
+            }
+        ],
+        "layouts": [],
+        "steps": {
+            "Region_Date_Month_Fi_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HKejKAG",
+                        "label": "Alarm Records",
+                        "name": "Alarm_Records",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKejKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "label": "",
+                "query": {
+                    "query": "{\"measures\":[\"{{ cell(static_2.selection, 0, \\\"value\\\").asObject() }}\"],\"pigql\":\"q1 = load \\\"Alarm_Records\\\"; q1 = filter q1 by {{ column(Global_Region_1.selection, [\\\"Global_Region\\\"]).asEquality(\\\"Global_Region\\\") }}; q1 = filter q1 by {{ column(Region_2.selection, [\\\"Region\\\"]).asEquality(\\\"Region\\\") }}; q1 = filter q1 by {{ column(City_2.selection, [\\\"City\\\"]).asEquality(\\\"City\\\") }}; q1 = filter q1 by {{ column(Fiscal_Yr_2.selection, [\\\"Fiscal_Yr\\\"]).asEquality(\\\"Date_Year_Fiscal\\\") }}; q1 = filter q1 by {{ column(Month_NUM_1.selection, [\\\"Fiscal_Month\\\"]).asEquality(\\\"Date_Month_Fiscal\\\") }}; q1 = group q1 by ({{ cell(static_1.selection, 0, \\\"value\\\").asGrouping() }}, 'Date_Month_Fiscal'); q1 = foreach q1 generate {{ cell(static_1.selection, 0, \\\"value\\\").asGrouping() }}, 'Date_Month_Fiscal', count() as 'Alarms'; q2 = load \\\"Site_Metrics\\\"; q2 = filter q2 by {{ column(Global_Region_1.selection, [\\\"Global_Region\\\"]).asEquality(\\\"Global_Region\\\") }}; q2 = filter q2 by {{ column(Region_2.selection, [\\\"Region\\\"]).asEquality(\\\"Region\\\") }}; q2 = filter q2 by {{ column(City_2.selection, [\\\"City\\\"]).asEquality(\\\"City\\\") }}; q2 = filter q2 by {{ column(Fiscal_Yr_2.selection, [\\\"Fiscal_Yr\\\"]).asEquality(\\\"Fiscal_Yr\\\") }}; q2 = filter q2 by {{ column(Fiscal_Qtr_2.selection, [\\\"Fiscal_Qtr\\\"]).asEquality(\\\"Fiscal_Qtr\\\") }}; q2 = filter q2 by {{ column(Month_NUM_1.selection, [\\\"Fiscal_Month\\\"]).asEquality(\\\"Fiscal_Month\\\") }}; q = group q1 by ({{ cell(static_1.selection, 0, \\\"value\\\").asGrouping() }}, 'Date_Month_Fiscal'), q2 by ({{ cell(static_1.selection, 0, \\\"value\\\").asGrouping() }}, 'Fiscal_Month'); q = foreach q generate q1[{{ cell(static_1.selection, 0, \\\"value\\\").asGrouping() }}] as {{ cell(static_1.selection, 0, \\\"value\\\").asGrouping() }}, q1['Date_Month_Fiscal'] as 'Date_Month_Fiscal', sum(q1['Alarms']) as 'sum_Alarms', sum(q1['Alarms']) / sum(q2['Occupied']) as 'per_Person', sum(q1['Alarms']) / sum(q2['Readers']) as 'per_Device'; q = order q by {{ cell(static_2.selection, 0, \\\"field\\\").asOrder() }} desc;\",\"groups\":[\"{{ cell(static_1.selection, 0, \\\"value\\\").asObject() }}\",\"Date_Month_Fiscal\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "stackvbar"
+                }
+            },
+            "Fiscal_Yr_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HKeZKAW",
+                        "label": "Site Metrics",
+                        "name": "Site_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKeZKAW"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Fiscal_Yr\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[\"2018\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "Fiscal_Yr_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ00000000X2oKAE",
+                        "label": "Go Center Metrics",
+                        "name": "Go_Center_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ00000000X2oKAE"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Fiscal_Yr\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[\"FY 2018\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "City_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HKejKAG",
+                        "label": "Alarm Records",
+                        "name": "Alarm_Records",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKejKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"City\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "Type_Month_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ00000000X2oKAE",
+                        "label": "Go Center Metrics",
+                        "name": "Go_Center_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ00000000X2oKAE"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"Monthly_Metrics\"]],\"groups\":[\"Type\",\"Month\"],\"filters\":[[\"Category\",[\"Door Access\"],\"in\"],[\"Fiscal_Yr\",\"{{ column(Fiscal_Yr_1.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"],[\"Fiscal_Qtr\",\"{{ column(Fiscal_Qtr_1.selection, [\\\"Fiscal_Qtr\\\"]).asObject() }}\"],[\"Month\",\"{{ column(Month_1.selection, [\\\"Month\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "vbar"
+                }
+            },
+            "Type_Month_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ00000000X2oKAE",
+                        "label": "Go Center Metrics",
+                        "name": "Go_Center_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ00000000X2oKAE"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"Monthly_Metrics\"]],\"groups\":[\"Type\",\"Month\"],\"filters\":[[\"Category\",[\"CMT\"],\"in\"],[\"Fiscal_Yr\",\"{{ column(Fiscal_Yr_1.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"],[\"Fiscal_Qtr\",\"{{ column(Fiscal_Qtr_1.selection, [\\\"Fiscal_Qtr\\\"]).asObject() }}\"],[\"Month\",\"{{ column(Month_1.selection, [\\\"Month\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "vbar"
+                }
+            },
+            "Type_Month_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ00000000X2oKAE",
+                        "label": "Go Center Metrics",
+                        "name": "Go_Center_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ00000000X2oKAE"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"Monthly_Metrics\"]],\"groups\":[\"Type\",\"Month\"],\"filters\":[[\"Category\",[\"Badging\"],\"in\"],[\"Fiscal_Yr\",\"{{ column(Fiscal_Yr_1.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"],[\"Fiscal_Qtr\",\"{{ column(Fiscal_Qtr_1.selection, [\\\"Fiscal_Qtr\\\"]).asObject() }}\"],[\"Month\",\"{{ column(Month_1.selection, [\\\"Month\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "vbar"
+                }
+            },
+            "Month_NUM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HKeZKAW",
+                        "label": "Site Metrics",
+                        "name": "Site_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKeZKAW"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Fiscal_Month\"],\"filters\":[[\"Fiscal_Yr\",\"{{ column(Fiscal_Yr_2.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"],[\"Fiscal_Qtr\",\"{{ column(Fiscal_Qtr_2.selection, [\\\"Fiscal_Qtr\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "Fiscal_Qtr_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ00000000X2oKAE",
+                        "label": "Go Center Metrics",
+                        "name": "Go_Center_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ00000000X2oKAE"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Fiscal_Qtr\"],\"filters\":[[\"Fiscal_Yr\",\"{{ column(Fiscal_Yr_1.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[\"Q1\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "Fiscal_Qtr_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HKeZKAW",
+                        "label": "Site Metrics",
+                        "name": "Site_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKeZKAW"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Fiscal_Qtr\"],\"filters\":[[\"Fiscal_Yr\",\"{{ column(Fiscal_Yr_2.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "Type_Month_4": {
+                "datasets": [
+                    {
+                        "id": "0FbQ00000000X2oKAE",
+                        "label": "Go Center Metrics",
+                        "name": "Go_Center_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ00000000X2oKAE"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"Monthly_Metrics\"]],\"groups\":[\"Type\",\"Month\"],\"filters\":[[\"Category\",[\"Incidents\"],\"in\"],[\"Fiscal_Yr\",\"{{ column(Fiscal_Yr_1.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"],[\"Fiscal_Qtr\",\"{{ column(Fiscal_Qtr_1.selection, [\\\"Fiscal_Qtr\\\"]).asObject() }}\"],[\"Month\",\"{{ column(Month_1.selection, [\\\"Month\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "vbar"
+                }
+            },
+            "static_2": {
+                "datasets": [],
+                "dimensions": [],
+                "groups": [],
+                "isFacet": false,
+                "isGlobal": false,
+                "numbers": [],
+                "selectMode": "singlerequired",
+                "start": "{\"display\":[\"Total\"]}",
+                "strings": [],
+                "type": "staticflex",
+                "useGlobal": false,
+                "values": [
+                    "{\"display\":\"Total\",\"value\":[\"sum\",\"Alarms\"],\"field\":\"sum_Alarms\"}",
+                    "{\"display\":\"Alarm/Device\",\"value\":[\"per\",\"Device\"],\"field\":\"per_Device\"}",
+                    "{\"display\":\"Alarm/Person\",\"value\":[\"per\",\"Person\"],\"field\":\"per_Person\"}"
+                ]
+            },
+            "static_1": {
+                "datasets": [],
+                "dimensions": [],
+                "groups": [],
+                "isFacet": false,
+                "isGlobal": false,
+                "numbers": [],
+                "selectMode": "singlerequired",
+                "start": "{\"display\":[\"Global Region\"]}",
+                "strings": [],
+                "type": "staticflex",
+                "useGlobal": false,
+                "values": [
+                    "{\"display\":\"Global Region\",\"value\":\"Global_Region\"}",
+                    "{\"display\":\"Region\",\"value\":\"Region\"}",
+                    "{\"display\":\"City\",\"value\":\"City\"}",
+                    "{\"display\":\"Site\",\"value\":\"Site\"}"
+                ]
+            },
+            "Region_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HKejKAG",
+                        "label": "Alarm Records",
+                        "name": "Alarm_Records",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKejKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Region\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[\"Global Region\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "Device_Date_Year_Dat_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HKejKAG",
+                        "label": "Alarm Records",
+                        "name": "Alarm_Records",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKejKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\",\"A\"]],\"columns\":[{\"query\":{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Device\",\"Site\"],\"filters\":[[\"Global_Region\",\"{{ column(Global_Region_1.selection, [\\\"Global_Region\\\"]).asObject() }}\"],[\"Region\",\"{{ column(Region_2.selection, [\\\"Region\\\"]).asObject() }}\"],[\"City\",\"{{ column(City_2.selection, [\\\"City\\\"]).asObject() }}\"],[\"Date_Year_Fiscal\",\"{{ column(Fiscal_Yr_2.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"],[\"Date_Quarter_Fiscal\",\"{{ column(Fiscal_Qtr_2.selection, [\\\"Fiscal_Qtr\\\"]).asObject() }}\"],[\"Date_Month_Fiscal\",\"{{ column(Month_NUM_1.selection, [\\\"Fiscal_Month\\\"]).asObject() }}\"]],\"order\":[[-1,{\"ascending\":false}]]},\"format\":null,\"header\":\"# of Alarms\"}],\"groups\":[\"Device\",\"Site\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "start": "[\"Global Region\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "comparisontable"
+                }
+            },
+            "Global_Region_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HKejKAG",
+                        "label": "Alarm Records",
+                        "name": "Alarm_Records",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKejKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Global_Region\"],\"filters\":[]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[\"Global Region\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "Month_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ00000000X2oKAE",
+                        "label": "Go Center Metrics",
+                        "name": "Go_Center_Metrics",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ00000000X2oKAE"
+                    }
+                ],
+                "isFacet": false,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Month\"],\"filters\":[[\"Fiscal_Yr\",\"{{ column(Fiscal_Yr_1.selection, [\\\"Fiscal_Yr\\\"]).asObject() }}\"],[\"Fiscal_Qtr\",\"{{ column(Fiscal_Qtr_1.selection, [\\\"Fiscal_Qtr\\\"]).asObject() }}\"]]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[\"Global Region\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            }
+        },
+        "widgetStyle": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E6ECF2",
+            "borderEdges": [],
+            "borderRadius": 0,
+            "borderWidth": 1
+        },
+        "widgets": {
+            "text_13": {
+                "parameters": {
+                    "fontSize": 16,
+                    "text": "Measures:",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "text_12": {
+                "parameters": {
+                    "fontSize": 16,
+                    "text": "Group By:",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "container_3": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "text_3": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Badge Services",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "chart_5": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": ""
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "Totals"
+                    },
+                    "theme": "wave",
+                    "step": "Type_Month_4",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": ""
+                    }
+                },
+                "type": "chart"
+            },
+            "text_2": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Door Access Requests",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "text_5": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "Medical/Security Incidents",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "chart_8": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "stackvbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": ""
+                    },
+                    "normalize": false,
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": ""
+                    },
+                    "step": "Region_Date_Month_Fi_1",
+                    "theme": "wave",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": ""
+                    }
+                },
+                "type": "chart"
+            },
+            "text_4": {
+                "parameters": {
+                    "fontSize": 20,
+                    "text": "CMT Activation/Notification",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "chart_2": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": ""
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "Totals"
+                    },
+                    "theme": "wave",
+                    "step": "Type_Month_2",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": ""
+                    }
+                },
+                "type": "chart"
+            },
+            "chart_1": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": ""
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "Totals"
+                    },
+                    "theme": "wave",
+                    "step": "Type_Month_1",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": ""
+                    }
+                },
+                "type": "chart"
+            },
+            "text_9": {
+                "parameters": {
+                    "fontSize": 24,
+                    "text": "ALARMS METRICS",
+                    "textAlignment": "left",
+                    "textColor": "#335779"
+                },
+                "type": "text"
+            },
+            "chart_3": {
+                "parameters": {
+                    "autoFitMode": "fit",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "vbar",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "binValues": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": ""
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "Totals"
+                    },
+                    "theme": "wave",
+                    "step": "Type_Month_3",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": ""
+                    }
+                },
+                "type": "chart"
+            },
+            "text_8": {
+                "parameters": {
+                    "fontSize": 24,
+                    "text": "DAILY OPERATIONS",
+                    "textAlignment": "left",
+                    "textColor": "#335779"
+                },
+                "type": "text"
+            },
+            "listselector_7": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "Global_Region_1",
+                    "title": "Global Region"
+                },
+                "type": "listselector"
+            },
+            "listselector_6": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "Month_NUM_1",
+                    "title": "Month"
+                },
+                "type": "listselector"
+            },
+            "listselector_9": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "City_2",
+                    "title": "City"
+                },
+                "type": "listselector"
+            },
+            "listselector_8": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "Region_2",
+                    "title": "Region"
+                },
+                "type": "listselector"
+            },
+            "listselector_3": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "Month_1",
+                    "title": "Month"
+                },
+                "type": "listselector"
+            },
+            "listselector_2": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "Fiscal_Qtr_1",
+                    "title": "Fiscal Quarter"
+                },
+                "type": "listselector"
+            },
+            "text_1": {
+                "parameters": {
+                    "fontSize": 32,
+                    "text": "GOC Dashboard",
+                    "textAlignment": "left",
+                    "textColor": "#FFFFFF"
+                },
+                "type": "text"
+            },
+            "listselector_5": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "Fiscal_Qtr_2",
+                    "title": "Fiscal Quarter"
+                },
+                "type": "listselector"
+            },
+            "listselector_4": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "Fiscal_Yr_2",
+                    "title": "Fiscal Year"
+                },
+                "type": "listselector"
+            },
+            "table_2": {
+                "parameters": {
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "step": "Device_Date_Year_Dat_1"
+                },
+                "type": "table"
+            },
+            "pillbox_2": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "step": "static_1"
+                },
+                "type": "pillbox"
+            },
+            "pillbox_3": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "step": "static_2"
+                },
+                "type": "pillbox"
+            },
+            "container_11": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_10": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "documentId": "",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "listselector_1": {
+                "parameters": {
+                    "compact": false,
+                    "expanded": true,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "Fiscal_Yr_1",
+                    "title": "Fiscal Year"
+                },
+                "type": "listselector"
+            }
+        }
+    },
+    "datasets": [
+        {
+            "id": "0FbQ00000000X2oKAE",
+            "label": "Go Center Metrics",
+            "name": "Go_Center_Metrics",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ00000000X2oKAE"
+        },
+        {
+            "id": "0FbQ0000000HKeZKAW",
+            "label": "Site Metrics",
+            "name": "Site_Metrics",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKeZKAW"
+        },
+        {
+            "id": "0FbQ0000000HKejKAG",
+            "label": "Alarm Records",
+            "name": "Alarm_Records",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HKejKAG"
+        }
+    ]
+}
