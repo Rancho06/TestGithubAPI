@@ -176,7 +176,7 @@
                             },
                             {
                                 "colspan": 9,
-                                "column": 0,
+                                "column": 5,
                                 "name": "number_1",
                                 "row": 2,
                                 "rowspan": 1,
@@ -204,7 +204,7 @@
                             },
                             {
                                 "colspan": 10,
-                                "column": 38,
+                                "column": 33,
                                 "name": "number_11",
                                 "row": 2,
                                 "rowspan": 1,
