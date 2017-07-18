@@ -1,0 +1,2139 @@
+{
+    "label": "Cloud Sales Forecast Waterfall",
+    "state": {
+        "dataSourceLinks": [],
+        "gridLayouts": [
+            {
+                "maxWidth": 1296,
+                "name": "Default",
+                "numColumns": 48,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 48,
+                                "column": 0,
+                                "name": "container_1",
+                                "row": 0,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 1,
+                                "name": "listselector_3",
+                                "row": 7,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 6,
+                                "name": "listselector_1",
+                                "row": 7,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 11,
+                                "name": "listselector_2",
+                                "row": 7,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 16,
+                                "name": "listselector_4",
+                                "row": 7,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 23,
+                                "name": "listselector_5",
+                                "row": 7,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 48,
+                                "column": 0,
+                                "name": "container_2",
+                                "row": 6,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 7,
+                                "column": 0,
+                                "name": "text_1",
+                                "row": 0,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "bottom"
+                                    ],
+                                    "borderRadius": 0,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 1,
+                                "name": "listselector_6",
+                                "row": 15,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#A3B8CC",
+                                    "borderColor": "#091A3E",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 33,
+                                "name": "listselector_7",
+                                "row": 7,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 38,
+                                "name": "listselector_8",
+                                "row": 7,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 43,
+                                "name": "listselector_10",
+                                "row": 7,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#E6ECF2",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 8,
+                                "name": "link_2",
+                                "row": 0,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 14,
+                                "name": "link_3",
+                                "row": 0,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 1,
+                                "name": "listselector_9",
+                                "row": 21,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#A3B8CC",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 1,
+                                "name": "listselector_11",
+                                "row": 27,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#A3B8CC",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 1,
+                                "name": "listselector_12",
+                                "row": 33,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#A3B8CC",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 10,
+                                "name": "number_1",
+                                "row": 14,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 17,
+                                "name": "number_2",
+                                "row": 14,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 24,
+                                "name": "number_3",
+                                "row": 14,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 7,
+                                "column": 31,
+                                "name": "number_4",
+                                "row": 14,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 39,
+                                "name": "number_5",
+                                "row": 14,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 39,
+                                "column": 8,
+                                "name": "chart_1",
+                                "row": 21,
+                                "rowspan": 19,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 14,
+                                "name": "number_6",
+                                "row": 41,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 21,
+                                "name": "number_7",
+                                "row": 41,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 28,
+                                "name": "number_8",
+                                "row": 41,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 35,
+                                "name": "number_9",
+                                "row": 41,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 48,
+                                "column": 0,
+                                "name": "table_1",
+                                "row": 48,
+                                "rowspan": 30,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 40,
+                                "column": 8,
+                                "name": "container_3",
+                                "row": 12,
+                                "rowspan": 36,
+                                "widgetStyle": {
+                                    "backgroundColor": "#091A3E",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 6,
+                                "column": 1,
+                                "name": "listselector_14",
+                                "row": 39,
+                                "rowspan": 4,
+                                "widgetStyle": {
+                                    "backgroundColor": "#A3B8CC",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "fine",
+                "selectors": [],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#A3B8CC",
+                    "cellSpacingX": 0,
+                    "cellSpacingY": 0,
+                    "fit": "original",
+                    "gutterColor": "#F2F6FA"
+                },
+                "version": 1
+            }
+        ],
+        "layouts": [],
+        "steps": {
+            "BB_DRVD_SVP_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"BB_DRVD_SVP_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "DIRECTS_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"DIRECTS\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "OPTY_MGR_FORCST_JUDG_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"OPTY_MGR_FORCST_JUDGMT_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "DRVD_AVP_AMT_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"DRVD_AVP_AMT\"]],\"filters\":[[\"DRVD_AVP_JUDGEMENT\",[\"Coverage\",\"Upside\",\"Risk\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "BB_DRVD_AVP_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"BB_DRVD_AVP_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "DRVD_AVP_AMT_3": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"DRVD_AVP_AMT\"]],\"filters\":[[\"DRVD_AVP_JUDGEMENT\",[\"Closed\",\"Commit\",\"Coverage\",\"Risk\",\"Upside\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "USR_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000CagqKAC",
+                        "label": "UserDirectHierarchy",
+                        "name": "UserDirectHierarchy",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000CagqKAC"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"USR_NM\"],\"filters\":[[\"MGR_USR_NM\",\"{{ column(SPCLST_FORCST_OWN_MG_1.selection, [\\\"SPCLST_FORCST_OWN_MGT_USR_NM_PATH\\\"]).asObject() }}\",\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "DRVD_AVP_JUDGEMENT_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"DRVD_AVP_AMT\"]],\"groups\":[\"DRVD_AVP_JUDGEMENT\"],\"filters\":[[\"DRVD_AVP_JUDGEMENT\",[\"None\"],\"not in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "showValues": true,
+                        "positiveColor": "#0BA976",
+                        "computeTotal": true,
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "totalColor": "#1674D9",
+                        "visualizationType": "waterfall",
+                        "theme": "wave",
+                        "negativeColor": "#E41E42",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": ""
+                        },
+                        "startColor": "#1674D9"
+                    },
+                    "type": "chart"
+                }
+            },
+            "SPCLST_FISCAL_YR_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SPCLST_FISCAL_YR_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[\"FY 2018\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "DRVD_AVP_AMT_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"DRVD_AVP_AMT\"]],\"filters\":[[\"DRVD_AVP_JUDGEMENT\",[\"Commit\",\"Closed\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "SPCLST_FORCST_OWN_MG_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SPCLST_FORCST_OWN_MGT_USR_NM_PATH\"]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "start": "[\"Jason Little\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "static_1": {
+                "datasets": [],
+                "dimensions": [],
+                "groups": [],
+                "isFacet": false,
+                "isGlobal": false,
+                "numbers": [],
+                "selectMode": "singlerequired",
+                "start": "{\"display\":[\"View As\"]}",
+                "strings": [],
+                "type": "staticflex",
+                "useGlobal": false,
+                "values": [
+                    "{\"display\":\"View As\",\"value\":\"View As\"}",
+                    "{\"display\":\"Direct Reports\",\"value\":\"Direct Reports\"}"
+                ]
+            },
+            "SPCLST_FORCST_OWN_NM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SPCLST_FORCST_OWN_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "SPCLST_FORCST_AMT_2": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"SPCLST_FORCST_AMT\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "SPCLST_FORCST_AMT_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"SPCLST_FORCST_AMT\"]],\"filters\":[[\"SPCLST_FORCST_STATUS_NM\",[\"Commit\"],\"in\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "QUOTA_AMT_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000D8F5KAK",
+                        "label": "sw_co_prime_quota",
+                        "name": "sw_co_prime_quota",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000D8F5KAK"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"QUOTA_AMT\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "SPCLST_FORCST_MGR_CO_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"SPCLST_FORCST_MGR_COMMIT_AMT\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "SPCLST_FORCST_CLOUD__1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SPCLST_FORCST_CLOUD_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "SPCLST_FORCST_STATUS_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SPCLST_FORCST_STATUS_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "SPCLST_MGR_UPSIDE_AM_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"SPCLST_MGR_UPSIDE_AMT\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            },
+            "SPCLST_FISCAL_MO_OF__1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SPCLST_FISCAL_MO_OF_YR_NUM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "SPCLST_FIN_FISCAL_QT_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SPCLST_FIN_FISCAL_QTR_NM\"]}",
+                    "version": -1
+                },
+                "selectMode": "multi",
+                "start": "[\"Q2\"]",
+                "type": "aggregateflex",
+                "useGlobal": false,
+                "visualizationParameters": {}
+            },
+            "lens_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000HHygKAG",
+                        "label": "sw_co_prime",
+                        "name": "sw_co_prime",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"values\":[\"SPCLST_FORCST_OWN_NM\",\"ACCT_NM\",\"OPTY_NM\",\"SPCLST_FORCST_NM\",\"SPCLST_FORCST_CLSD_DT\",\"SPCLST_FORCST_STATUS_NM\",\"SPCLST_FORCST_AMT\",\"SPCLST_MGR_UPSIDE_AMT\",\"DRVD_AVP_AMT\",\"DRVD_AVP_JUDGEMENT\"]}",
+                    "version": -1
+                },
+                "type": "grain",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "customBulkActions": [],
+                        "maxColumnWidth": 300,
+                        "minColumnWidth": 40,
+                        "mode": "variable",
+                        "totals": true
+                    },
+                    "type": "table"
+                }
+            },
+            "BASELINE_AMT_1": {
+                "datasets": [
+                    {
+                        "id": "0FbQ0000000D8F5KAK",
+                        "label": "sw_co_prime_quota",
+                        "name": "sw_co_prime_quota",
+                        "url": "/services/data/v40.0/wave/datasets/0FbQ0000000D8F5KAK"
+                    }
+                ],
+                "isFacet": true,
+                "isGlobal": false,
+                "query": {
+                    "query": "{\"measures\":[[\"sum\",\"BASELINE_AMT\"]]}",
+                    "version": -1
+                },
+                "selectMode": "single",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "parameters": {
+                        "autoFitMode": "none",
+                        "showValues": true,
+                        "bins": {
+                            "breakpoints": {
+                                "high": 100,
+                                "low": 0
+                            },
+                            "bands": {
+                                "high": {
+                                    "color": "#008000",
+                                    "label": ""
+                                },
+                                "low": {
+                                    "color": "#B22222",
+                                    "label": ""
+                                },
+                                "medium": {
+                                    "color": "#ffa500",
+                                    "label": ""
+                                }
+                            }
+                        },
+                        "legend": {
+                            "showHeader": true,
+                            "show": true,
+                            "customSize": "auto",
+                            "position": "right-top",
+                            "inside": false
+                        },
+                        "axisMode": "multi",
+                        "visualizationType": "hbar",
+                        "title": {
+                            "label": "",
+                            "align": "center",
+                            "subtitleLabel": ""
+                        },
+                        "binValues": false,
+                        "trellis": {
+                            "flipLabels": false,
+                            "showGridLines": true,
+                            "enable": false,
+                            "type": "x",
+                            "chartsPerLine": 4
+                        },
+                        "measureAxis2": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "measureAxis1": {
+                            "sqrtScale": false,
+                            "showTitle": true,
+                            "showAxis": true,
+                            "title": "",
+                            "customDomain": {
+                                "showDomain": false
+                            }
+                        },
+                        "theme": "wave",
+                        "dimensionAxis": {
+                            "showTitle": true,
+                            "customSize": "auto",
+                            "showAxis": true,
+                            "title": "",
+                            "icons": {
+                                "useIcons": false,
+                                "iconProps": {
+                                    "fit": "cover",
+                                    "column": "",
+                                    "type": "round"
+                                }
+                            }
+                        }
+                    },
+                    "type": "chart"
+                }
+            }
+        },
+        "widgetStyle": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E6ECF2",
+            "borderEdges": [],
+            "borderRadius": 0,
+            "borderWidth": 1
+        },
+        "widgets": {
+            "number_9": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_SPCLST_FORCST_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "SPCLST_FORCST_AMT_2",
+                    "textAlignment": "center",
+                    "title": "Total AE Pipeline",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "number_8": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_SPCLST_MGR_UPSIDE_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "SPCLST_MGR_UPSIDE_AM_1",
+                    "textAlignment": "center",
+                    "title": "RVP Upside",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "number_7": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_SPCLST_FORCST_MGR_COMMIT_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "SPCLST_FORCST_MGR_CO_1",
+                    "textAlignment": "center",
+                    "title": "RVP Commit",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "number_6": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_SPCLST_FORCST_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "SPCLST_FORCST_AMT_1",
+                    "textAlignment": "center",
+                    "title": "AE Commit",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "container_1": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_2": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "container_3": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "chart_1": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "showValues": true,
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "positiveColor": "#0BA976",
+                    "legend": {
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "visualizationType": "waterfall",
+                    "exploreLink": true,
+                    "title": {
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "startColor": "#44A2F5",
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "computeTotal": true,
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "AVP Amount",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "totalColor": "#1674D9",
+                    "theme": "dark",
+                    "step": "DRVD_AVP_JUDGEMENT_1",
+                    "negativeColor": "#E41E42",
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "showAxis": true,
+                        "title": ""
+                    }
+                },
+                "type": "chart"
+            },
+            "listselector_7": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "SPCLST_FISCAL_YR_NM_1",
+                    "title": "Fiscal Year"
+                },
+                "type": "listselector"
+            },
+            "listselector_6": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "DIRECTS_1",
+                    "title": "Keith Block Directs"
+                },
+                "type": "listselector"
+            },
+            "listselector_9": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "BB_DRVD_SVP_NM_1",
+                    "title": "Core SVP"
+                },
+                "type": "listselector"
+            },
+            "listselector_8": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "SPCLST_FIN_FISCAL_QT_1",
+                    "title": "Fiscal Quarter"
+                },
+                "type": "listselector"
+            },
+            "listselector_3": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "step": "static_1",
+                    "title": "Team View"
+                },
+                "type": "listselector"
+            },
+            "listselector_2": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": false,
+                    "measureField": "none",
+                    "step": "USR_NM_1",
+                    "title": "Direct Reports"
+                },
+                "type": "listselector"
+            },
+            "listselector_5": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "SPCLST_FORCST_CLOUD__1",
+                    "title": "Business Area"
+                },
+                "type": "listselector"
+            },
+            "text_1": {
+                "parameters": {
+                    "fontSize": 18,
+                    "text": "Forecast Waterfall",
+                    "textAlignment": "left",
+                    "textColor": "#091A3E"
+                },
+                "type": "text"
+            },
+            "listselector_4": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "SPCLST_FORCST_OWN_NM_1",
+                    "title": "Specialist Forecast Owner"
+                },
+                "type": "listselector"
+            },
+            "link_3": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "Cloud_Sales_Data_Dictionary"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 14,
+                    "includeState": false,
+                    "text": "Data Dictionary",
+                    "textAlignment": "center",
+                    "textColor": "#5C7A99"
+                },
+                "type": "link"
+            },
+            "link_2": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "Cloud_Sales_Dashboard_PendingChanges_Dev"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 14,
+                    "includeState": false,
+                    "text": "Forecast & Bookings",
+                    "textAlignment": "center",
+                    "textColor": "#5C7A99"
+                },
+                "type": "link"
+            },
+            "number_5": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_DRVD_AVP_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "DRVD_AVP_AMT_3",
+                    "textAlignment": "center",
+                    "title": "AVP High End",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "table_1": {
+                "parameters": {
+                    "customBulkActions": [],
+                    "exploreLink": true,
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "step": "lens_1",
+                    "totals": true
+                },
+                "type": "table"
+            },
+            "number_4": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_DRVD_AVP_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "DRVD_AVP_AMT_2",
+                    "textAlignment": "center",
+                    "title": "Coverage + Upside - Risk",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "number_3": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_DRVD_AVP_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "DRVD_AVP_AMT_1",
+                    "textAlignment": "center",
+                    "title": "AVP Commit",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "number_2": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_BASELINE_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "BASELINE_AMT_1",
+                    "textAlignment": "center",
+                    "title": "Baseline",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "number_1": {
+                "parameters": {
+                    "compact": true,
+                    "exploreLink": true,
+                    "measureField": "sum_QUOTA_AMT",
+                    "numberColor": "#FFFFFF",
+                    "numberSize": 20,
+                    "step": "QUOTA_AMT_1",
+                    "textAlignment": "center",
+                    "title": "Quota",
+                    "titleColor": "#FFFFFF",
+                    "titleSize": 14
+                },
+                "type": "number"
+            },
+            "listselector_12": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "OPTY_MGR_FORCST_JUDG_1",
+                    "title": "Core Manager Judgment"
+                },
+                "type": "listselector"
+            },
+            "listselector_11": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "BB_DRVD_AVP_NM_1",
+                    "title": "Core AVP"
+                },
+                "type": "listselector"
+            },
+            "listselector_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "SPCLST_FORCST_OWN_MG_1",
+                    "title": "Log In As"
+                },
+                "type": "listselector"
+            },
+            "listselector_10": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "SPCLST_FISCAL_MO_OF__1",
+                    "title": "Fiscal Month"
+                },
+                "type": "listselector"
+            },
+            "listselector_14": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "none",
+                    "step": "SPCLST_FORCST_STATUS_1",
+                    "title": "Specialist Forecast Status"
+                },
+                "type": "listselector"
+            }
+        }
+    },
+    "datasets": [
+        {
+            "id": "0FbQ0000000CagqKAC",
+            "label": "UserDirectHierarchy",
+            "name": "UserDirectHierarchy",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000CagqKAC"
+        },
+        {
+            "id": "0FbQ0000000D8F5KAK",
+            "label": "sw_co_prime_quota",
+            "name": "sw_co_prime_quota",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000D8F5KAK"
+        },
+        {
+            "id": "0FbQ0000000HHygKAG",
+            "label": "sw_co_prime",
+            "name": "sw_co_prime",
+            "url": "/services/data/v40.0/wave/datasets/0FbQ0000000HHygKAG"
+        }
+    ]
+}
